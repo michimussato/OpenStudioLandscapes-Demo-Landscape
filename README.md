@@ -68,7 +68,7 @@ cd OpenStudioLandscapes-Demo-Landscape
 ### Full Reset
 
 ```shell
-git clean --force .
+git clean --force -x .
 ```
 
 ## Individual Features
