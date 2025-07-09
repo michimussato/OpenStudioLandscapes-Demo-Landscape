@@ -2,7 +2,7 @@ digraph main_graph {
 	graph [bb="0,0,4627,680",
 		bgcolor="#2f2f2f",
 		fontname=Helvetica,
-		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_\
+		label="2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_\
 COMPOSE/docker_compose/docker-compose.yml",
 		lheight=0.21,
 		lp="2313.5,11.5",
@@ -614,12 +614,12 @@ COMPOSE/docker_compose/docker-compose.yml",
 				shape=box,
 				style="filled,rounded",
 				width=1.5139];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/data/ayon-db/\
+			"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/data/ayon-db/\
 postgresql"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/data/ayon-db/\
+				label="2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/data/ayon-db/\
 postgresql",
 				pos="580,189",
 				shape=box,
@@ -665,7 +665,7 @@ postgresql",
 		fontname=Helvetica,
 		pos="s,635,247 e,3548,348 643.36,247.29 808.79,253.03 3377.1,342.07 3539.9,347.72",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/data/ayon-db/\
+	"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/data/ayon-db/\
 postgresql":e -> "NODE-SERVICE_postgres":"PLUG_postgres__/var/lib/postgresql/data":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",

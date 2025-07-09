@@ -9,7 +9,7 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(108 923)">
 <title>main_graph</title>
 <polygon fill="#2f2f2f" stroke="transparent" points="-108,108 -108,-923 5629,-923 5629,108 -108,108"/>
-<text text-anchor="middle" x="2760.5" y="-7.8" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker&#45;compose.yml</text>
+<text text-anchor="middle" x="2760.5" y="-7.8" font-family="Helvetica,sans-Serif" font-size="14.00">2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker&#45;compose.yml</text>
 <g id="clust1" class="cluster">
 <title>cluster_cluster_root_services_2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9&#45;default</title>
 <path fill="#ff00ff" fill-opacity="0.062745" stroke="#ff00ff" d="M2023,-290C2023,-290 5501,-290 5501,-290 5507,-290 5513,-296 5513,-302 5513,-302 5513,-792 5513,-792 5513,-798 5507,-804 5501,-804 5501,-804 2023,-804 2023,-804 2017,-804 2011,-798 2011,-792 2011,-792 2011,-302 2011,-302 2011,-296 2017,-290 2023,-290"/>
@@ -237,41 +237,41 @@
 <ellipse fill="#00ffff" stroke="#00ffff" cx="730.49" cy="-524.75" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2025.01" cy="-443.25" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations -->
+<!-- 2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations -->
 <g id="node5" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations</title>
+<title>2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations</title>
 <path fill="#00ffff" stroke="black" d="M1283.5,-485C1283.5,-485 47.5,-485 47.5,-485 41.5,-485 35.5,-479 35.5,-473 35.5,-473 35.5,-461 35.5,-461 35.5,-455 41.5,-449 47.5,-449 47.5,-449 1283.5,-449 1283.5,-449 1289.5,-449 1295.5,-455 1295.5,-461 1295.5,-461 1295.5,-473 1295.5,-473 1295.5,-479 1289.5,-485 1283.5,-485"/>
-<text text-anchor="middle" x="665.5" y="-463.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations</text>
+<text text-anchor="middle" x="665.5" y="-463.3" font-family="Helvetica,sans-Serif" font-size="14.00">2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations&#45;&gt;NODE&#45;SERVICE_dagster -->
+<!-- 2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations&#45;&gt;NODE&#45;SERVICE_dagster -->
 <g id="edge5" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
+<title>2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1304.73,-466.54C1379.86,-462.33 1945.98,-430.65 2020.84,-426.46"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1300.49" cy="-466.78" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2025.01" cy="-426.22" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml -->
+<!-- 2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml -->
 <g id="node6" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</title>
+<title>2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</title>
 <path fill="#00ffff" stroke="black" d="M1295,-427C1295,-427 36,-427 36,-427 30,-427 24,-421 24,-415 24,-415 24,-403 24,-403 24,-397 30,-391 36,-391 36,-391 1295,-391 1295,-391 1301,-391 1307,-397 1307,-403 1307,-403 1307,-415 1307,-415 1307,-421 1301,-427 1295,-427"/>
-<text text-anchor="middle" x="665.5" y="-405.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</text>
+<text text-anchor="middle" x="665.5" y="-405.3" font-family="Helvetica,sans-Serif" font-size="14.00">2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml&#45;&gt;NODE&#45;SERVICE_dagster -->
+<!-- 2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml&#45;&gt;NODE&#45;SERVICE_dagster -->
 <g id="edge6" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
+<title>2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1316.59,-409C1390.49,-409 1947.34,-409 2020.97,-409"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1312.5" cy="-409" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2025" cy="-409" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres -->
+<!-- .dagster/postgres -->
 <g id="node7" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres</title>
+<title>.dagster/postgres</title>
 <path fill="#00ffff" stroke="black" d="M924.5,-369C924.5,-369 406.5,-369 406.5,-369 400.5,-369 394.5,-363 394.5,-357 394.5,-357 394.5,-345 394.5,-345 394.5,-339 400.5,-333 406.5,-333 406.5,-333 924.5,-333 924.5,-333 930.5,-333 936.5,-339 936.5,-345 936.5,-345 936.5,-357 936.5,-357 936.5,-363 930.5,-369 924.5,-369"/>
-<text text-anchor="middle" x="665.5" y="-347.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres</text>
+<text text-anchor="middle" x="665.5" y="-347.3" font-family="Helvetica,sans-Serif" font-size="14.00">.dagster/postgres</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster -->
+<!-- .dagster/postgres&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster -->
 <g id="edge7" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres:e&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster:w</title>
+<title>.dagster/postgres:e&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster:w</title>
 <path fill="none" stroke="#00ffff" d="M944.76,-351.1C1120.11,-353.13 4028.83,-386.9 4201.95,-388.91"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="940.5" cy="-351.05" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="4206" cy="-388.95" rx="4" ry="4"/>

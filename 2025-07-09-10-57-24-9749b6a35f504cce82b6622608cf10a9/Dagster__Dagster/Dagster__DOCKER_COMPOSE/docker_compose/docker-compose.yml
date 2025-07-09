@@ -48,8 +48,8 @@ services:
     volumes:
     - /data/share/nfs:/data/share/nfs
     - /data/share/nfs:/nfs
-    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations:/dagster/materializations:rw
-    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:/dagster/workspace.yaml:ro
+    - 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__dagster_yaml/materializations:/dagster/materializations:rw
+    - 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:/dagster/workspace.yaml:ro
   openstudiolandscapes-postgres-dagster:
     container_name: openstudiolandscapes-postgres-dagster--2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
     domainname: farm.evil
@@ -74,4 +74,4 @@ services:
     - dagster
     restart: always
     volumes:
-    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres:/var/lib/postgresql/data/pgdata
+    - .dagster/postgres:/var/lib/postgresql/data/pgdata

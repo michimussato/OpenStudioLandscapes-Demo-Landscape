@@ -2,7 +2,7 @@ digraph main_graph {
 	graph [bb="0,0,5520,716",
 		bgcolor="#2f2f2f",
 		fontname=Helvetica,
-		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_\
+		label="2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_\
 COMPOSE/docker_compose/docker-compose.yml",
 		lheight=0.21,
 		lp="2760,11.5",
@@ -510,34 +510,34 @@ COMPOSE/docker_compose/docker-compose.yml",
 				shape=box,
 				style="filled,rounded",
 				width=1.6806];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_\
+			"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_\
 conf/supervisord.conf"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_\
+				label="2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_\
 conf/supervisord.conf",
 				pos="639,177",
 				shape=box,
 				style="filled,rounded",
 				width=17.083];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+			"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 postgresql"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+				label="2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 postgresql",
 				pos="639,293",
 				shape=box,
 				style="filled,rounded",
 				width=15.125];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+			"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 previews"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+				label="2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 previews",
 				pos="639,351",
 				shape=box,
@@ -604,7 +604,7 @@ previews",
 		fontname=Helvetica,
 		pos="s,699,235 e,4106.5,221 707.04,234.97 883.93,234.24 3920.6,221.76 4098.4,221.03",
 		style=solid];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_\
+	"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_\
 conf/supervisord.conf":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/etc/supervisord.conf":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -612,7 +612,7 @@ conf/supervisord.conf":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/etc/supervisord.c
 		fontname=Helvetica,
 		pos="s,1255,177 e,1976.5,262 1263.1,177.95 1337.1,186.67 1894.7,252.37 1968.5,261.05",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+	"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 postgresql":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/var/lib/postgresql":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -620,7 +620,7 @@ postgresql":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/var/lib/postgresql":w	[arrow
 		fontname=Helvetica,
 		pos="s,1185,293 e,1976.5,330 1193.1,293.38 1271.2,297.03 1890.1,325.96 1968.4,329.62",
 		style=solid];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+	"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 postgresql":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_kitsu-init-db__/var/lib/postgresql":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -628,7 +628,7 @@ postgresql":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_kitsu-init-db__/var/lib/post
 		fontname=Helvetica,
 		pos="s,1184,293 e,4106.5,255 1192.4,292.89 1358.4,290.73 3935,257.23 4098.4,255.11",
 		style=solid];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
+	"2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/\
 previews":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/opt/zou/previews":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",

@@ -7,6 +7,9 @@
     * [Dagster](#dagster)
     * [Kitsu](#kitsu)
   * [Full Landscape](#full-landscape)
+* [Docker](#docker)
+  * [Tag](#tag)
+  * [Push](#push)
 <!-- TOC -->
 
 ---
@@ -38,13 +41,15 @@ git submodule add https://github.com/ynput/ayon-docker.git 2025-07-09-10-57-24-9
 `cmd_docker_compose_up`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
 ```
 
 ### Dagster
@@ -54,13 +59,15 @@ git submodule add https://github.com/ynput/ayon-docker.git 2025-07-09-10-57-24-9
 `cmd_docker_compose_up`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
 ```
 
 ### Kitsu
@@ -70,13 +77,15 @@ git submodule add https://github.com/ynput/ayon-docker.git 2025-07-09-10-57-24-9
 `cmd_docker_compose_up`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
 ```
 
 ## Full Landscape
@@ -86,12 +95,35 @@ git submodule add https://github.com/ynput/ayon-docker.git 2025-07-09-10-57-24-9
 `cmd_docker_compose_up`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
 ```
 
+# Docker
+
+## Tag
+
+Images created by OpenStudioLandscapes were (afterwards) tagged with:
+
+```shell
+docker tag openstudiolandscapes/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9 docker.io/michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker tag openstudiolandscapes/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9 docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker tag openstudiolandscapes/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9 docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+```
+
+## Push
+
+And then pushed with:
+
+```shell
+docker push michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker push michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker push michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+```
