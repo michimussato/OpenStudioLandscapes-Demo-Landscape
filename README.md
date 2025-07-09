@@ -67,6 +67,10 @@ cd OpenStudioLandscapes-Demo-Landscape
 
 ### Full Reset
 
+> [!WARNING]
+> All untracked/changed data in `cwd` will be erased and reset
+
+
 ```shell
 sudo git clean --force -x .
 ```
