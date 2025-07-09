@@ -99,7 +99,7 @@ COMPOSE/docker_compose/docker-compose.yml",
             image
         </td>
         <td align="left">
-            docker.io/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+            docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
         </td>
     </tr>
     <!-- COMMAND -->
@@ -340,7 +340,7 @@ COMPOSE/docker_compose/docker-compose.yml",
             image
         </td>
         <td align="left">
-            docker.io/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+            docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
         </td>
     </tr>
     <!-- COMMAND -->

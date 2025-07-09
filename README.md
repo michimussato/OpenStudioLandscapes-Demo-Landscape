@@ -127,3 +127,11 @@ docker push michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09
 docker push michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
 docker push michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
 ```
+
+## Pull
+
+```shell
+docker pull michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker pull michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker pull michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+```
