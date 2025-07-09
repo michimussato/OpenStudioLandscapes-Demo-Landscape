@@ -1,4 +1,4 @@
-![logo128.png](media/images/logo128.png)
+[![ Logo OpenStudioLandscapes ](https://github.com/michimussato/OpenStudioLandscapes/raw/main/media/images/logo128.png)](https://github.com/michimussato/OpenStudioLandscapes)
 
 ---
 
