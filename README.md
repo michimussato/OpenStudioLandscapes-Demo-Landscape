@@ -10,6 +10,7 @@
 * [Docker](#docker)
   * [Tag](#tag)
   * [Push](#push)
+  * [Pull](#pull)
 <!-- TOC -->
 
 ---
@@ -19,7 +20,8 @@
 ## Clone
 
 ```shell
-git clone --recursive
+git clone --recursive https://github.com/michimussato/OpenStudioLandscapes-Demo-Landscape.git
+cd OpenStudioLandscapes-Demo-Landscape
 ```
 
 ```shell
