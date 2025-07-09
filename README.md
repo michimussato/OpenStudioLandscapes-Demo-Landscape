@@ -8,11 +8,11 @@
   * [Clone](#clone)
 * [Run Landscape](#run-landscape)
   * [Full Landscape](#full-landscape)
-    * [Full Reset](#full-reset)
   * [Individual Features](#individual-features)
     * [Ayon](#ayon)
     * [Dagster](#dagster)
     * [Kitsu](#kitsu)
+  * [Full Reset](#full-reset)
 * [Docker](#docker)
   * [Tag](#tag)
   * [Push](#push)
@@ -64,11 +64,6 @@ cd OpenStudioLandscapes-Demo-Landscape
 ```shell
 ./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
-
-### Full Reset
-
-> [!WARNING]
-> All untracked/changed data in `cwd` will be erased and reset
 
 
 ```shell
@@ -124,6 +119,11 @@ sudo git clean --force -x .
 ```shell
 ./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
+
+## Full Reset
+
+> [!WARNING]
+> All untracked/changed data in `cwd` will be erased and reset
 
 # Docker
 
