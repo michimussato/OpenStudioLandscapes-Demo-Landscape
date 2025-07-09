@@ -28,8 +28,8 @@ services:
     volumes:
     - ../../2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/postgresql:/var/lib/postgresql
     - ../../2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/previews:/opt/zou/previews
-    - /data/share/nfs:/data/share/nfs
-    - /data/share/nfs:/nfs
+    # - /data/share/nfs:/data/share/nfs
+    # - /data/share/nfs:/nfs
     - ../../2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf:/etc/supervisord.conf:ro
   kitsu-init-db:
     command:
@@ -48,5 +48,5 @@ services:
     restart: 'no'
     volumes:
     - ../../2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/data/kitsu/postgresql:/var/lib/postgresql
-    - /data/share/nfs:/data/share/nfs
-    - /data/share/nfs:/nfs
+    # - /data/share/nfs:/data/share/nfs
+    # - /data/share/nfs:/nfs
