@@ -8,6 +8,7 @@
   * [Clone](#clone)
 * [Run Landscape](#run-landscape)
   * [Full Landscape](#full-landscape)
+    * [Full Reset](#full-reset)
   * [Individual Features](#individual-features)
     * [Ayon](#ayon)
     * [Dagster](#dagster)
@@ -28,8 +29,9 @@ This is a pre-made (and slightly adjusted) Demo Landscape. You can use
 [OpenStudioLandscapes](https://github.com/michimussato/OpenStudioLandscapes)
 to create Landscapes similar to this one. 
 
-This Demo Landscape lets you bypass the OpenStudioLandscapes set up and
-examine/experiment with a Landscape. This Landscape comes with these
+This Demo Landscape lets you bypass the OpenStudioLandscapes set up procedure and
+gives you a quick way to examine a Landscape and experiment with it. 
+This Landscape comes with these
 Features:
 - [OpenStudioLandscapes-Ayon](https://github.com/michimussato/OpenStudioLandscapes-Ayon)
 - [OpenStudioLandscapes-Dagster](https://github.com/michimussato/OpenStudioLandscapes-Dagster)
@@ -41,6 +43,9 @@ Features:
 git clone --recursive https://github.com/michimussato/OpenStudioLandscapes-Demo-Landscape.git
 cd OpenStudioLandscapes-Demo-Landscape
 ```
+
+> [!IMPORTANT]
+> All the following commands assume that you are (`cwd`) in the `OpenStudioLandscapes-Demo-Landscape` directory.
 
 # Run Landscape
 
@@ -58,6 +63,12 @@ cd OpenStudioLandscapes-Demo-Landscape
 
 ```shell
 ./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+```
+
+### Full Reset
+
+```shell
+git clean --force 
 ```
 
 ## Individual Features
