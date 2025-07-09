@@ -86,12 +86,12 @@ git submodule add https://github.com/ynput/ayon-docker.git 2025-07-09-10-57-24-9
 `cmd_docker_compose_up`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+/usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
 ```
 
