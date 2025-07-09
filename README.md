@@ -1,5 +1,6 @@
 <!-- TOC -->
 * [OpenStudioLandscapes-Demo-Landscape](#openstudiolandscapes-demo-landscape)
+  * [Brief](#brief)
   * [Clone](#clone)
 * [Run Landscape](#run-landscape)
   * [Full Landscape](#full-landscape)
@@ -16,6 +17,19 @@
 ---
 
 # OpenStudioLandscapes-Demo-Landscape
+
+## Brief
+
+This is a pre-made (and slightly adjusted) Demo Landscape. You can use 
+[OpenStudioLandscapes](https://github.com/michimussato/OpenStudioLandscapes)
+to create Landscapes similar to this one. 
+
+This Demo Landscape lets you bypass the OpenStudioLandscapes set up and
+examine/experiment with a Landscape. This Landscape comes with these
+Features:
+- [OpenStudioLandscapes-Ayon](https://github.com/michimussato/OpenStudioLandscapes-Ayon)
+- [OpenStudioLandscapes-Dagster](https://github.com/michimussato/OpenStudioLandscapes-Dagster)
+- [OpenStudioLandscapes-Kitsu](https://github.com/michimussato/OpenStudioLandscapes-Kitsu)
 
 ## Clone
 
