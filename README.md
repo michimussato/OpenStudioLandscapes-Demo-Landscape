@@ -33,15 +33,13 @@ cd OpenStudioLandscapes-Demo-Landscape
 `cmd_docker_compose_up`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 ## Individual Features
@@ -53,15 +51,13 @@ bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__
 `cmd_docker_compose_up`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 ### Dagster
@@ -71,15 +67,13 @@ bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKE
 `cmd_docker_compose_up`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 ### Kitsu
@@ -89,15 +83,13 @@ bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagst
 `cmd_docker_compose_up`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default up --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-bash 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
-# /usr/bin/docker --config 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml --project-name 2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9-default down --remove-orphans
+./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 # Docker
