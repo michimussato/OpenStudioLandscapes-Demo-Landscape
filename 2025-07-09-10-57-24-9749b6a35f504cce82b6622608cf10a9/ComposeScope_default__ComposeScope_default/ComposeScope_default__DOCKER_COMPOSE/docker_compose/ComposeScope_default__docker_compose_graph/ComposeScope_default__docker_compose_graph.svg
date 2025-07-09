@@ -287,7 +287,7 @@
 <polygon fill="none" stroke="#0a0a0a" points="2028,-822 2028,-839 2463,-839 2463,-822 2028,-822"/>
 <text text-anchor="start" x="2329" y="-826.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;image &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2463,-822 2463,-839 3486,-839 3486,-822 2463,-822"/>
-<text text-anchor="start" x="2464" y="-826.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;harbor.farm.evil:80/openstudiolandscapes/dagster_build_docker_image:2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+<text text-anchor="start" x="2464" y="-826.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;docker.io/openstudiolandscapes_dagster_build_docker_image:2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2028,-805 2028,-822 2463,-822 2463,-805 2028,-805"/>
 <text text-anchor="start" x="2183" y="-809.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;command (ENTRYPOINT +) &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2463,-805 2463,-822 3486,-822 3486,-805 2463,-805"/>
@@ -446,7 +446,7 @@
 <polygon fill="none" stroke="#0a0a0a" points="2054,-1626 2054,-1643 2458,-1643 2458,-1626 2054,-1626"/>
 <text text-anchor="start" x="2324" y="-1630.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;image &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2458,-1626 2458,-1643 3461,-1643 3461,-1626 2458,-1626"/>
-<text text-anchor="start" x="2459" y="-1630.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+<text text-anchor="start" x="2459" y="-1630.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;docker.io/openstudiolandscapes_kitsu_build_docker_image:2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2054,-1609 2054,-1626 2458,-1626 2458,-1609 2054,-1609"/>
 <text text-anchor="start" x="2178" y="-1613.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;command (ENTRYPOINT +) &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2458,-1609 2458,-1626 3461,-1626 3461,-1609 2458,-1609"/>
@@ -528,7 +528,7 @@
 <polygon fill="none" stroke="#0a0a0a" points="4208.5,-1625 4208.5,-1642 4596.5,-1642 4596.5,-1625 4208.5,-1625"/>
 <text text-anchor="start" x="4462.5" y="-1629.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;image &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="4596.5,-1625 4596.5,-1642 5599.5,-1642 5599.5,-1625 4596.5,-1625"/>
-<text text-anchor="start" x="4597.5" y="-1629.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+<text text-anchor="start" x="4597.5" y="-1629.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;docker.io/openstudiolandscapes_kitsu_build_docker_image:2025&#45;07&#45;09&#45;10&#45;57&#45;24&#45;9749b6a35f504cce82b6622608cf10a9 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="4208.5,-1608 4208.5,-1625 4596.5,-1625 4596.5,-1608 4208.5,-1608"/>
 <text text-anchor="start" x="4316.5" y="-1612.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;command (ENTRYPOINT +) &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="4596.5,-1608 4596.5,-1625 5599.5,-1625 5599.5,-1608 4596.5,-1608"/>
