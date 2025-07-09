@@ -1,3 +1,7 @@
+![logo128.png](media/images/logo128.png)
+
+---
+
 <!-- TOC -->
 * [OpenStudioLandscapes-Demo-Landscape](#openstudiolandscapes-demo-landscape)
   * [Brief](#brief)
