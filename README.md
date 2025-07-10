@@ -45,6 +45,16 @@ Features:
 - [OpenStudioLandscapes-Dagster](https://github.com/michimussato/OpenStudioLandscapes-Dagster)
 - [OpenStudioLandscapes-Kitsu](https://github.com/michimussato/OpenStudioLandscapes-Kitsu)
 
+Once the [Landscape](#full-landscape) is up and running, the
+Features can be accessed using these URL's:
+
+| Feature                      | URL                   |
+|------------------------------|-----------------------|
+| OpenStudioLandscapes-Ayon    | http://localhost:5005 |
+| OpenStudioLandscapes-Dagster | http://localhost:3003 |
+| OpenStudioLandscapes-Kitsu   | http://localhost:4545 |
+
+
 ## Clone
 
 ```shell
