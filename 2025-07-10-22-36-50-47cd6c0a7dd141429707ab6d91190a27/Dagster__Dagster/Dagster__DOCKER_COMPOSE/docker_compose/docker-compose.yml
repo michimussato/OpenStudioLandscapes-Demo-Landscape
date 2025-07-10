@@ -45,8 +45,8 @@ services:
     - 3003:3006
     restart: always
     volumes:
-    - ./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations:/dagster/materializations:rw
-    - ./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:/dagster/workspace.yaml:ro
+    - ../../../../2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations:/dagster/materializations:rw
+    - ../../../../2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:/dagster/workspace.yaml:ro
   openstudiolandscapes-postgres-dagster:
     container_name: openstudiolandscapes-postgres-dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
     domainname: farm.evil

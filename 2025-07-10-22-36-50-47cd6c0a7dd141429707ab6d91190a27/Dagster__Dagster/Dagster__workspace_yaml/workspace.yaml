@@ -1,9 +1,5 @@
 load_from:
 - python_module:
-    location_name: dagster_job_processor Package Code Location
-    module_name: OpenStudioLandscapes.dagster_job_processor.definitions
-    working_directory: src
-- python_module:
     location_name: openstudiolandscapes_dagster_showcase Package Code Location
     module_name: openstudiolandscapes_dagster_showcase.definitions
     working_directory: src
