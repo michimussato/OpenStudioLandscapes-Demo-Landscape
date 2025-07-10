@@ -27,7 +27,15 @@
 
 This is a pre-made (and slightly adjusted) Demo Landscape. You can use 
 [OpenStudioLandscapes](https://github.com/michimussato/OpenStudioLandscapes)
-to create Landscapes similar to this one. 
+to create Landscapes similar to this one.
+
+Alongside the data contained in this repository, OpenStudioLandscapes
+also automatically created the Docker images which this Landscape needs. 
+They will be pulled automatically upon Landscape launch, however, the images are 
+available for inspection here:
+- [michimussato/openstudiolandscapes_base_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_base_build_docker_image)
+- [michimussato/openstudiolandscapes_dagster_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_dagster_build_docker_image)
+- [michimussato/openstudiolandscapes_kitsu_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_kitsu_build_docker_image)
 
 This Demo Landscape lets you bypass the OpenStudioLandscapes set up procedure and
 gives you a quick way to examine a Landscape and experiment with it. 
