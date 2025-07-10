@@ -60,7 +60,7 @@ Features can be accessed using these URL's:
 ## Requirements
 
 - `git`
-- `docker` (see [Socker Setup](https://docs.docker.com/engine/install/))
+- `docker` (see [Docker Setup](https://docs.docker.com/engine/install/))
 
 ## Clone
 
