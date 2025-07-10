@@ -1,0 +1,8 @@
+{
+  "harbor.farm.evil:80": {
+    "Seed": "4lQYD2i9thQOblrVEWwhuQ=="
+  },
+  "registry-1.docker.io": {
+    "Seed": "IFI21kKlFx9nEI8HZRLIqQ=="
+  }
+}

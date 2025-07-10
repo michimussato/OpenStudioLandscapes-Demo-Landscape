@@ -1,0 +1,1772 @@
+digraph main_graph {
+	graph [bb="0,0,5651,1717",
+		bgcolor="#2f2f2f",
+		fontname=Helvetica,
+		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__\
+ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml",
+		lheight=0.21,
+		lp="2825.5,11.5",
+		lwidth=24.58,
+		nodesep=0.3,
+		pad=1.5,
+		rankdir=LR,
+		ranksep=10,
+		splines=line,
+		style=rounded
+	];
+	node [label="\N"];
+	subgraph "cluster_cluster_root_services_2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default" {
+		graph [bb="2020,381,5643,1709",
+			color="#FF00FF",
+			fillcolor="#FF00FF10",
+			fontcolor="#FF00FF",
+			fontname=Helvetica,
+			fontsize=40,
+			label="Compose Services (2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default)",
+			lheight=0.61,
+			lp="3831.5,1683",
+			lwidth=25.26,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_service_postgres {
+			graph [bb="4384.5,1004,5467.5,1342",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=postgres,
+				lheight=0.61,
+				lp="4926,1316",
+				lwidth=2.43,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_postgres"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=3.7361,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_postgres">
+            service_name
+        </td>
+        <td align="left">
+            postgres
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            ayon-postgres--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            postgres.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            unless-stopped
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            postgres:${AYON_STACK_POSTGRES_TAG:-15}
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD-SHELL 'pg_isready -U ayon'
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (3)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_DB=ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_PASSWORD=ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_USER=ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_postgres__/etc/localtime">
+                            /etc/localtime:ro
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_postgres__/var/lib/postgresql/data">
+                            /var/lib/postgresql/data:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_postgres__/var/lib/postgresql/data">
+                            /var/lib/postgresql/data:rw
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (3)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="4926,1147",
+				shape=plain,
+				style=filled,
+				width=14.819];
+		}
+		subgraph cluster_cluster_service_redis {
+			graph [bb="4468.5,769,5383.5,996",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=redis,
+				lheight=0.61,
+				lp="4926,970",
+				lwidth=1.38,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_redis"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=2.2083,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_redis">
+            service_name
+        </td>
+        <td align="left">
+            redis
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            ayon-redis--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            redis.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            unless-stopped
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            redis:alpine
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD-SHELL 'redis-cli ping | grep PONG'
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+    <!-- VOLUMES -->
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="4926,856",
+				shape=plain,
+				style=filled,
+				width=12.486];
+		}
+		subgraph cluster_cluster_service_server {
+			graph [bb="2273.5,887,3267.5,1229",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=server,
+				lheight=0.61,
+				lp="2770.5,1203",
+				lwidth=1.78,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_server"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=3.7917,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_server">
+            service_name
+        </td>
+        <td align="left">
+            server
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            ayon-server--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            server.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            unless-stopped
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            ynput/ayon:${AYON_STACK_SERVER_TAG:-latest}
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD curl -f http://localhost:5000/api/info
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+        <tr>
+            <td align="right">
+                depends_on (2)
+            </td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_postgres">
+                            postgres (condition: service_healthy)
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_redis">
+                            redis (condition: service_started)
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- ENVIRONMENT -->
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_server__/addons">
+                            /addons:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_server__/storage">
+                            /storage:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_server__/etc/localtime">
+                            /etc/localtime:ro
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (3)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        
+                        <td align="left" port="PLUG_server__5005__5000">
+                            5005 &#8594; 5000
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                ports (1)
+            </td>
+        </tr>
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="2770.5,1032",
+				shape=plain,
+				style=filled,
+				width=13.583];
+		}
+		subgraph cluster_cluster_service_dagster {
+			graph [bb="2028,483,3513,879",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=dagster,
+				lheight=0.61,
+				lp="2770.5,853",
+				lwidth=2.14,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_dagster"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=4.5556,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_dagster">
+            service_name
+        </td>
+        <td align="left">
+            dagster
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            dagster.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            always
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            harbor.farm.evil:80/openstudiolandscapes/dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            dagster dev --workspace /dagster/workspace.yaml --host 0.0.0.0 --port 3006
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD curl -f http://localhost:3006
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+        <tr>
+            <td align="right">
+                depends_on (1)
+            </td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_openstudiolandscapes-postgres-dagster">
+                            openstudiolandscapes-postgres-dagster (condition: None)
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (2)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            DAGSTER_DEPLOYMENT=farm
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            DAGSTER_HOME=/dagster/materializations
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster__/dagster/materializations">
+                            /dagster/materializations:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster__/dagster/workspace.yaml">
+                            /dagster/workspace.yaml:ro
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (2)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        
+                        <td align="left" port="PLUG_dagster__3003__3006">
+                            3003 &#8594; 3006
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                ports (1)
+            </td>
+        </tr>
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster">
+                            dagster
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_mongodb">
+                            mongodb
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_repository">
+                            repository
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (4)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="2770.5,655",
+				shape=plain,
+				style=filled,
+				width=20.403];
+		}
+		subgraph "cluster_cluster_service_openstudiolandscapes-postgres-dagster" {
+			graph [bb="4268.5,389,5583.5,761",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label="openstudiolandscapes-postgres-dagster",
+				lheight=0.61,
+				lp="4926,735",
+				lwidth=11.21,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_openstudiolandscapes-postgres-dagster"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=4.2083,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_openstudiolandscapes-postgres-dagster">
+            service_name
+        </td>
+        <td align="left">
+            openstudiolandscapes-postgres-dagster
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            openstudiolandscapes-postgres-dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            openstudiolandscapes-postgres-dagster.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            always
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            docker.io/postgres
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD-SHELL 'pg_isready --username postgres --dbname postgres --port 5432'
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (4)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            PGDATA=/var/lib/postgresql/data/pgdata
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_DB=postgres
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_PASSWORD=mysecretpassword
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_USER=postgres
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata">
+                            /var/lib/postgresql/data/pgdata:rw
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (1)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster">
+                            dagster
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_mongodb">
+                            mongodb
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_repository">
+                            repository
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (4)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="4926,549",
+				shape=plain,
+				style=filled,
+				width=18.042];
+		}
+		subgraph cluster_cluster_service_kitsu {
+			graph [bb="2053.5,1237,3487.5,1649",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=kitsu,
+				lheight=0.61,
+				lp="2770.5,1623",
+				lwidth=1.35,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_kitsu"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=4.7917,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_kitsu">
+            service_name
+        </td>
+        <td align="left">
+            kitsu
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            kitsu--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            kitsu.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            always
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            bash /opt/zou/start_zou.sh
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+    <!-- DEPENDS_ON -->
+    
+        <tr>
+            <td align="right">
+                depends_on (1)
+            </td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_kitsu-init-db">
+                            kitsu-init-db (condition: service_completed_successfully)
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (6)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            DB_PASSWORD=mysecretpassword
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            ENABLE_JOB_QUEUE=True
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            KITSU_ADMIN=admin@example.com
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            PREVIEW_FOLDER=/opt/zou/previews
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            SECRET_KEY=yourrandomsecretkey
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            TMP_DIR=/opt/zou/tmp
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu__/var/lib/postgresql">
+                            /var/lib/postgresql:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu__/opt/zou/previews">
+                            /opt/zou/previews:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu__/etc/supervisord.conf">
+                            /etc/supervisord.conf:ro
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (3)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        
+                        <td align="left" port="PLUG_kitsu__4545__80">
+                            4545 &#8594; 80
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                ports (1)
+            </td>
+        </tr>
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu">
+                            kitsu
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="2770.5,1417",
+				shape=plain,
+				style=filled,
+				width=19.694];
+		}
+		subgraph "cluster_cluster_service_kitsu-init-db" {
+			graph [bb="4217,1350,5635,1649",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label="kitsu-init-db",
+				lheight=0.61,
+				lp="4926,1623",
+				lwidth=3.35,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_kitsu-init-db"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=3.2083,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_kitsu-init-db">
+            service_name
+        </td>
+        <td align="left">
+            kitsu-init-db
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            kitsu-init-db--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            kitsu-init-db.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            no
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            /usr/bin/bash /opt/zou/init_db.sh
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (5)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            DB_PASSWORD=mysecretpassword
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            KITSU_ADMIN=admin@example.com
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            PREVIEW_FOLDER=/opt/zou/previews
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            SECRET_KEY=yourrandomsecretkey
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            TMP_DIR=/opt/zou/tmp
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu-init-db__/var/lib/postgresql">
+                            /var/lib/postgresql:rw
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (1)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+</table>>,
+				labeljust=l,
+				pos="4926,1473",
+				shape=plain,
+				style=filled,
+				width=19.472];
+		}
+		"NODE-SERVICE_server":"PLUG_DEPENDS_ON_NODE-SERVICE_postgres":e -> "NODE-SERVICE_postgres":"PLUG_NODE-SERVICE_postgres":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,3257.5,1020 e,4393,1272 3267.3,1022.2 3372.6,1045.5 4290.4,1249.2 4385.1,1270.2",
+			style=bold];
+		"NODE-SERVICE_server":"PLUG_DEPENDS_ON_NODE-SERVICE_redis":e -> "NODE-SERVICE_redis":"PLUG_NODE-SERVICE_redis":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,3257.5,1003 e,4477,926 3267.7,1002.4 3379,995.33 4368.6,932.84 4468.8,926.52",
+			style=bold];
+		"NODE-SERVICE_dagster":"PLUG_DEPENDS_ON_NODE-SERVICE_openstudiolandscapes-postgres-dagster":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_NODE-SERVICE_openstudiolandscapes-postgres-dagster":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,3503.5,672 e,4277,691 3513.6,672.25 3598.4,674.33 4192.7,688.93 4269,690.8",
+			style=bold];
+		"NODE-SERVICE_kitsu":"PLUG_DEPENDS_ON_NODE-SERVICE_kitsu-init-db":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_NODE-SERVICE_kitsu-init-db":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,3477.5,1459 e,4225,1579 3487.5,1460.6 3570.3,1473.9 4141.3,1565.6 4216.8,1577.7",
+			style=bold];
+	}
+	subgraph cluster_cluster_host {
+		graph [bb="8,31,1332,1279",
+			color="#000000",
+			fillcolor="#00000010",
+			fontcolor="#000000",
+			fontname=Helvetica,
+			fontsize=40,
+			label=Host,
+			lheight=0.61,
+			lp="670,1253",
+			lwidth=1.28,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_root_ports {
+			graph [bb="519.55,901,820.45,1219",
+				color="#FFFFFF",
+				fillcolor="#FFFFFF10",
+				fontcolor="#FFFFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Exposed Ports",
+				lheight=0.61,
+				lp="670,1193",
+				lwidth=3.96,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			dagster__3003__3006	[color=black,
+				fillcolor="#FFFFFF",
+				fontname=Helvetica,
+				height=0.95686,
+				label=3003,
+				pos="670,943",
+				shape=circle,
+				style=filled,
+				width=0.95686];
+			kitsu__4545__80	[color=black,
+				fillcolor="#FFFFFF",
+				fontname=Helvetica,
+				height=0.95686,
+				label=4545,
+				pos="670,1125",
+				shape=circle,
+				style=filled,
+				width=0.95686];
+			server__5005__5000	[color=black,
+				fillcolor="#FFFFFF",
+				fontname=Helvetica,
+				height=0.95686,
+				label=5005,
+				pos="670,1034",
+				shape=circle,
+				style=filled,
+				width=0.95686];
+		}
+		subgraph cluster_cluster_root_volumes {
+			graph [bb="16,383,1324,893",
+				color="#00FFFF",
+				fillcolor="#00FFFF10",
+				fontcolor="#00FFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Mounted Volumes",
+				lheight=0.61,
+				lp="670,867",
+				lwidth=5.00,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+dagster_yaml/materializations"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+dagster_yaml/materializations",
+				pos="670,641",
+				shape=box,
+				style="filled,rounded",
+				width=17.625];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+workspace_yaml/workspace.yaml"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+workspace_yaml/workspace.yaml",
+				pos="670,583",
+				shape=box,
+				style="filled,rounded",
+				width=17.944];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+conf/supervisord.conf"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+conf/supervisord.conf",
+				pos="670,699",
+				shape=box,
+				style="filled,rounded",
+				width=17.208];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql",
+				pos="670,815",
+				shape=box,
+				style="filled,rounded",
+				width=15.25];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+previews"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+previews",
+				pos="670,757",
+				shape=box,
+				style="filled,rounded",
+				width=15.097];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres",
+				pos="670,409",
+				shape=box,
+				style="filled,rounded",
+				width=7.5278];
+			"/etc/localtime"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/etc/localtime",
+				pos="670,525",
+				shape=box,
+				style="filled,rounded",
+				width=1.5139];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+postgresql"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+postgresql",
+				pos="670,467",
+				shape=box,
+				style="filled,rounded",
+				width=15.569];
+		}
+		subgraph cluster_cluster_root_networks {
+			graph [bb="567,39,773,375",
+				color="#FFA500",
+				fillcolor="#FFA50010",
+				fontcolor="#FFA500",
+				fontname=Helvetica,
+				fontsize=40,
+				label=Networks,
+				lheight=0.61,
+				lp="670,349",
+				lwidth=2.64,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			ayon	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=ayon,
+				pos="670,239",
+				shape=box,
+				style="filled,rounded",
+				width=0.75];
+			dagster	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=dagster,
+				pos="670,181",
+				shape=box,
+				style="filled,rounded",
+				width=0.97222];
+			mongodb	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=mongodb,
+				pos="670,123",
+				shape=box,
+				style="filled,rounded",
+				width=1.1528];
+			repository	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=repository,
+				pos="670,65",
+				shape=box,
+				style="filled,rounded",
+				width=1.1944];
+			kitsu	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=kitsu,
+				pos="670,297",
+				shape=box,
+				style="filled,rounded",
+				width=0.75];
+		}
+	}
+	dagster__3003__3006:e -> "NODE-SERVICE_dagster":PLUG_dagster__3003__3006:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFFFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,706,943 e,2038.5,574 713.83,940.83 817.91,912.01 1927,604.88 2030.7,576.15",
+		style=rounded];
+	kitsu__4545__80:e -> "NODE-SERVICE_kitsu":PLUG_kitsu__4545__80:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFFFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,706,1125 e,2063.5,1276 713.97,1125.9 819.9,1137.7 1947.6,1263.1 2055.3,1275.1",
+		style=rounded];
+	server__5005__5000:e -> "NODE-SERVICE_server":PLUG_server__5005__5000:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFFFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,706,1034 e,2283.5,927 714.11,1033.4 830.36,1025.6 2158.8,935.46 2275.3,927.55",
+		style=rounded];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+dagster_yaml/materializations":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/materializations":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1306,641 e,2038.5,612 1314.2,640.67 1389.4,637.7 1955.5,615.29 2030.3,612.32",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+workspace_yaml/workspace.yaml":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/workspace.yaml":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1317,583 e,2038.5,595 1325.1,583.13 1399.1,584.37 1956.7,593.64 2030.5,594.87",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+conf/supervisord.conf":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/etc/supervisord.conf":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1291,699 e,2063.5,1297 1297.7,704.17 1368.9,759.31 1987.3,1238 2057.1,1292",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/var/lib/postgresql":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1220,815 e,2063.5,1331 1227.3,819.46 1305.1,867.04 1980.3,1280.1 2056.5,1326.7",
+		style=solid];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_kitsu-init-db__/var/lib/postgresql":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1219,815 e,4228,1368 1227.1,816.49 1393.1,846.99 4053.7,1336 4219.9,1366.5",
+		style=solid];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+previews":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/opt/zou/previews":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1215,757 e,2063.5,1314 1221.8,761.48 1297.6,811.21 1979.4,1258.8 2056.4,1309.4",
+		style=solid];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,941,409 e,4280,480 949.15,409.17 1125.2,412.92 4095,476.07 4271.8,479.83",
+		style=solid];
+	"/etc/localtime":e -> "NODE-SERVICE_postgres":"PLUG_postgres__/etc/localtime":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,725,525 e,4396,1078 733.08,526.22 917.73,554.03 4205.2,1049.3 4388.1,1076.8",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+postgresql":e -> "NODE-SERVICE_postgres":"PLUG_postgres__/var/lib/postgresql/data":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1231,467 e,4396,1061 1239,468.5 1408.4,500.3 4218,1027.6 4388,1059.5",
+		style=dashed];
+	ayon:e -> "NODE-SERVICE_postgres":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,697,239 e,4396,1023 704.86,240.67 887.77,279.43 4203.6,982.22 4388,1021.3",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_redis":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,697,239 e,4480,787 705.04,240.16 892.1,267.26 4283.2,758.49 4471.8,785.82",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_server":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,698,239 e,2283.5,906 705.42,242.12 817.51,289.28 2163.2,855.38 2276,902.84",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_dagster":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,698,239 e,2038.5,553 705.87,240.84 810.58,265.37 1926.3,526.72 2030.7,551.17",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,697,239 e,4280,459 705.17,239.5 888.33,250.75 4090.8,447.38 4272,458.51",
+		style=solid];
+	dagster:e -> "NODE-SERVICE_dagster":PLUG_dagster:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,706,181 e,2038.5,536 713.83,183.08 817.91,210.81 1927,506.29 2030.7,533.93",
+		style=solid];
+	dagster:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_dagster:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,705,181 e,4280,442 713.15,181.6 895.9,194.94 4091.2,428.22 4272,441.42",
+		style=solid];
+	mongodb:e -> "NODE-SERVICE_dagster":PLUG_mongodb:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,713,123 e,2038.5,519 720.78,125.33 824.32,156.26 1927.6,485.86 2030.8,516.69",
+		style=solid];
+	mongodb:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_mongodb:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,712,123 e,4280,425 720.14,123.69 902.44,139.12 4088.3,408.78 4271.8,424.3",
+		style=solid];
+	repository:e -> "NODE-SERVICE_dagster":PLUG_repository:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,714,65 e,2038.5,502 721.78,67.566 825.24,101.7 1927.6,465.43 2030.8,499.45",
+		style=solid];
+	repository:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_repository:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,713,65 e,4280,408 721.14,65.782 903.38,83.307 4088.4,389.58 4271.8,407.21",
+		style=solid];
+	kitsu:e -> "NODE-SERVICE_kitsu":PLUG_kitsu:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,698,297 e,2063.5,1255 704.7,301.7 803.29,370.87 1957.7,1180.8 2056.7,1250.3",
+		style=solid];
+}

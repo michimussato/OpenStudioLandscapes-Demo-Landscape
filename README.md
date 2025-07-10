@@ -51,18 +51,18 @@ cd OpenStudioLandscapes-Demo-Landscape
 
 ## Full Landscape
 
-![Landscape_Map__landscape_map.svg](2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Landscape_Map__Landscape_Map/Landscape_Map__landscape_map/Landscape_Map__landscape_map.svg)
+![Landscape_Map__landscape_map.svg](2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Landscape_Map__Landscape_Map/Landscape_Map__landscape_map/Landscape_Map__landscape_map.svg)
 
 `cmd_docker_compose_up`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 
@@ -74,50 +74,50 @@ sudo git clean --force -x .
 
 ### Ayon
 
-![Ayon__docker_compose_graph.svg](2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/Ayon__docker_compose_graph/Ayon__docker_compose_graph.svg)
+![Ayon__docker_compose_graph.svg](2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/Ayon__docker_compose_graph/Ayon__docker_compose_graph.svg)
 
 `cmd_docker_compose_up`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 ### Dagster
 
-![Dagster__docker_compose_graph.svg](2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/Dagster__docker_compose_graph/Dagster__docker_compose_graph.svg)
+![Dagster__docker_compose_graph.svg](2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/Dagster__docker_compose_graph/Dagster__docker_compose_graph.svg)
 
 `cmd_docker_compose_up`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 ### Kitsu
 
-![Kitsu__docker_compose_graph.svg](2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/Kitsu__docker_compose_graph/Kitsu__docker_compose_graph.svg)
+![Kitsu__docker_compose_graph.svg](2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/Kitsu__docker_compose_graph/Kitsu__docker_compose_graph.svg)
 
 `cmd_docker_compose_up`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_up.sh
 ```
 
 `cmd_docker_compose_down`
 
 ```shell
-./2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
+./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
 ## Full Reset
@@ -132,9 +132,9 @@ sudo git clean --force -x .
 Images created by OpenStudioLandscapes were (afterwards) tagged with:
 
 ```shell
-docker tag openstudiolandscapes/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9 docker.io/michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
-docker tag openstudiolandscapes/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9 docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
-docker tag openstudiolandscapes/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9 docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker tag openstudiolandscapes/openstudiolandscapes_base_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27 docker.io/michimussato/openstudiolandscapes_base_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+docker tag openstudiolandscapes/dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27 docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+docker tag openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27 docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
 ```
 
 ## Push
@@ -142,15 +142,15 @@ docker tag openstudiolandscapes/openstudiolandscapes_kitsu_build_docker_image:20
 And then pushed with:
 
 ```shell
-docker push michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
-docker push michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
-docker push michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker push docker.io/michimussato/openstudiolandscapes_base_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+docker push docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+docker push docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
 ```
 
 ## Pull
 
 ```shell
-docker pull michimussato/openstudiolandscapes_base_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
-docker pull michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
-docker pull michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-09-10-57-24-9749b6a35f504cce82b6622608cf10a9
+docker pull docker.io/michimussato/openstudiolandscapes_base_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+docker pull docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+docker pull docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
 ```

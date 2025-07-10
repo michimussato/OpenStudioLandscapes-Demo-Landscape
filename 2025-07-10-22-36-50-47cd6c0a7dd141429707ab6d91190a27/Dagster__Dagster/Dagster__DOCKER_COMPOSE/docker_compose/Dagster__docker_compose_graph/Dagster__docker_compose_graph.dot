@@ -1,0 +1,685 @@
+digraph main_graph {
+	graph [bb="0,0,5548,757",
+		bgcolor="#2f2f2f",
+		fontname=Helvetica,
+		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+DOCKER_COMPOSE/docker_compose/docker-compose.yml",
+		lheight=0.21,
+		lp="2774,11.5",
+		lwidth=20.11,
+		nodesep=0.3,
+		pad=1.5,
+		rankdir=LR,
+		ranksep=10,
+		splines=line,
+		style=rounded
+	];
+	node [label="\N"];
+	subgraph "cluster_cluster_root_services_2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default" {
+		graph [bb="2020,283,5540,747",
+			color="#FF00FF",
+			fillcolor="#FF00FF10",
+			fontcolor="#FF00FF",
+			fontname=Helvetica,
+			fontsize=40,
+			label="Compose Services (2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default)",
+			lheight=0.61,
+			lp="3780,721",
+			lwidth=25.26,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_service_dagster {
+			graph [bb="2028,291,3513,687",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=dagster,
+				lheight=0.61,
+				lp="2770.5,661",
+				lwidth=2.14,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_dagster"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=4.5556,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_dagster">
+            service_name
+        </td>
+        <td align="left">
+            dagster
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            dagster.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            always
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            harbor.farm.evil:80/openstudiolandscapes/dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            dagster dev --workspace /dagster/workspace.yaml --host 0.0.0.0 --port 3006
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD curl -f http://localhost:3006
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+        <tr>
+            <td align="right">
+                depends_on (1)
+            </td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_openstudiolandscapes-postgres-dagster">
+                            openstudiolandscapes-postgres-dagster (condition: None)
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (2)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            DAGSTER_DEPLOYMENT=farm
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            DAGSTER_HOME=/dagster/materializations
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster__/dagster/materializations">
+                            /dagster/materializations:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster__/dagster/workspace.yaml">
+                            /dagster/workspace.yaml:ro
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (2)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        
+                        <td align="left" port="PLUG_dagster__3003__3006">
+                            3003 &#8594; 3006
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                ports (1)
+            </td>
+        </tr>
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster">
+                            dagster
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_mongodb">
+                            mongodb
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_repository">
+                            repository
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (4)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="2770.5,463",
+				shape=plain,
+				style=filled,
+				width=20.403];
+		}
+		subgraph "cluster_cluster_service_openstudiolandscapes-postgres-dagster" {
+			graph [bb="4217,291,5532,663",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label="openstudiolandscapes-postgres-dagster",
+				lheight=0.61,
+				lp="4874.5,637",
+				lwidth=11.21,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_openstudiolandscapes-postgres-dagster"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=4.2083,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_openstudiolandscapes-postgres-dagster">
+            service_name
+        </td>
+        <td align="left">
+            openstudiolandscapes-postgres-dagster
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            openstudiolandscapes-postgres-dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            openstudiolandscapes-postgres-dagster.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            always
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            docker.io/postgres
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD-SHELL 'pg_isready --username postgres --dbname postgres --port 5432'
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (4)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            PGDATA=/var/lib/postgresql/data/pgdata
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_DB=postgres
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_PASSWORD=mysecretpassword
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_USER=postgres
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata">
+                            /var/lib/postgresql/data/pgdata:rw
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (1)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_dagster">
+                            dagster
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_mongodb">
+                            mongodb
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_repository">
+                            repository
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (4)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="4874.5,451",
+				shape=plain,
+				style=filled,
+				width=18.042];
+		}
+		"NODE-SERVICE_dagster":"PLUG_DEPENDS_ON_NODE-SERVICE_openstudiolandscapes-postgres-dagster":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_NODE-SERVICE_openstudiolandscapes-postgres-dagster":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,3503.5,480 e,4225.5,593 3513.4,481.55 3594.4,494.23 4144.8,580.37 4217.6,591.76",
+			style=bold];
+	}
+	subgraph cluster_cluster_host {
+		graph [bb="8,31,1332,749",
+			color="#000000",
+			fillcolor="#00000010",
+			fontcolor="#000000",
+			fontname=Helvetica,
+			fontsize=40,
+			label=Host,
+			lheight=0.61,
+			lp="670,723",
+			lwidth=1.28,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_root_ports {
+			graph [bb="519.55,553,820.45,689",
+				color="#FFFFFF",
+				fillcolor="#FFFFFF10",
+				fontcolor="#FFFFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Exposed Ports",
+				lheight=0.61,
+				lp="670,663",
+				lwidth=3.96,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			dagster__3003__3006	[color=black,
+				fillcolor="#FFFFFF",
+				fontname=Helvetica,
+				height=0.95686,
+				label=3003,
+				pos="670,595",
+				shape=circle,
+				style=filled,
+				width=0.95686];
+		}
+		subgraph cluster_cluster_root_volumes {
+			graph [bb="16,325,1324,545",
+				color="#00FFFF",
+				fillcolor="#00FFFF10",
+				fontcolor="#00FFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Mounted Volumes",
+				lheight=0.61,
+				lp="670,519",
+				lwidth=5.00,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+dagster_yaml/materializations"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+dagster_yaml/materializations",
+				pos="670,467",
+				shape=box,
+				style="filled,rounded",
+				width=17.625];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+workspace_yaml/workspace.yaml"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+workspace_yaml/workspace.yaml",
+				pos="670,409",
+				shape=box,
+				style="filled,rounded",
+				width=17.944];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres",
+				pos="670,351",
+				shape=box,
+				style="filled,rounded",
+				width=7.5278];
+		}
+		subgraph cluster_cluster_root_networks {
+			graph [bb="567,39,773,317",
+				color="#FFA500",
+				fillcolor="#FFA50010",
+				fontcolor="#FFA500",
+				fontname=Helvetica,
+				fontsize=40,
+				label=Networks,
+				lheight=0.61,
+				lp="670,291",
+				lwidth=2.64,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			ayon	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=ayon,
+				pos="670,239",
+				shape=box,
+				style="filled,rounded",
+				width=0.75];
+			dagster	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=dagster,
+				pos="670,181",
+				shape=box,
+				style="filled,rounded",
+				width=0.97222];
+			mongodb	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=mongodb,
+				pos="670,123",
+				shape=box,
+				style="filled,rounded",
+				width=1.1528];
+			repository	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=repository,
+				pos="670,65",
+				shape=box,
+				style="filled,rounded",
+				width=1.1944];
+		}
+	}
+	dagster__3003__3006:e -> "NODE-SERVICE_dagster":PLUG_dagster__3003__3006:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFFFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,706,595 e,2038.5,382 714.16,593.7 820.18,576.75 1924.9,400.15 2030.4,383.29",
+		style=rounded];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+dagster_yaml/materializations":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/materializations":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1306,467 e,2038.5,420 1314.2,466.47 1389.4,461.65 1955.5,425.33 2030.3,420.52",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+workspace_yaml/workspace.yaml":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/workspace.yaml":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1317,409 e,2038.5,403 1325.1,408.93 1399.1,408.32 1956.7,403.68 2030.5,403.07",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,941,351 e,4228.5,382 949.03,351.08 1122.4,352.71 4046.4,380.28 4220.4,381.92",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_dagster":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,698,239 e,2038.5,361 706.21,239.75 812.87,249.45 1924.3,350.6 2030.4,360.26",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,697,239 e,4228.5,361 705.05,239.28 885.49,245.51 4038.8,354.45 4220.3,360.72",
+		style=solid];
+	dagster:e -> "NODE-SERVICE_dagster":PLUG_dagster:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,706,181 e,2038.5,344 714.16,182 820.18,194.97 1924.9,330.11 2030.4,343.01",
+		style=solid];
+	dagster:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_dagster:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,705,181 e,4228.5,344 713.04,181.37 893.06,189.7 4039.2,335.24 4220.4,343.62",
+		style=solid];
+	mongodb:e -> "NODE-SERVICE_dagster":PLUG_mongodb:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,713,123 e,2038.5,327 721.12,124.25 826.58,140.48 1925.5,309.61 2030.5,325.76",
+		style=solid];
+	mongodb:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_mongodb:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,712,123 e,4228.5,327 720.02,123.47 899.69,133.89 4039.6,316.04 4220.4,326.53",
+		style=solid];
+	repository:e -> "NODE-SERVICE_dagster":PLUG_repository:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,714,65 e,2038.5,310 722.11,66.501 827.5,85.994 1925.6,289.12 2030.5,308.51",
+		style=solid];
+	repository:e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":PLUG_repository:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,713,65 e,4228.5,310 721.02,65.559 900.64,78.077 4039.7,296.84 4220.4,309.43",
+		style=solid];
+}

@@ -1,0 +1,48 @@
+networks:
+  kitsu:
+    name: network_kitsu
+services:
+  kitsu:
+    command:
+    - bash
+    - /opt/zou/start_zou.sh
+    container_name: kitsu--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    depends_on:
+      kitsu-init-db:
+        condition: service_completed_successfully
+    domainname: farm.evil
+    environment:
+      DB_PASSWORD: mysecretpassword
+      ENABLE_JOB_QUEUE: true
+      KITSU_ADMIN: admin@example.com
+      PREVIEW_FOLDER: /opt/zou/previews
+      SECRET_KEY: yourrandomsecretkey
+      TMP_DIR: /opt/zou/tmp
+    hostname: kitsu.farm.evil
+    image: harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    networks:
+    - kitsu
+    ports:
+    - 4545:80
+    restart: always
+    volumes:
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql:/var/lib/postgresql
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews:/opt/zou/previews
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf:/etc/supervisord.conf:ro
+  kitsu-init-db:
+    command:
+    - /usr/bin/bash
+    - /opt/zou/init_db.sh
+    container_name: kitsu-init-db--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    domainname: farm.evil
+    environment:
+      DB_PASSWORD: mysecretpassword
+      KITSU_ADMIN: admin@example.com
+      PREVIEW_FOLDER: /opt/zou/previews
+      SECRET_KEY: yourrandomsecretkey
+      TMP_DIR: /opt/zou/tmp
+    hostname: kitsu-init-db.farm.evil
+    image: harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    restart: 'no'
+    volumes:
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql:/var/lib/postgresql

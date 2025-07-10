@@ -1,0 +1,74 @@
+networks:
+  ayon:
+    name: network_ayon-10-2
+  dagster:
+    name: network_dagster
+  mongodb:
+    name: network_mongodb-10-2
+  repository:
+    name: network_repository-10-2
+services:
+  dagster:
+    command:
+    - dagster
+    - dev
+    - --workspace
+    - /dagster/workspace.yaml
+    - --host
+    - 0.0.0.0
+    - --port
+    - '3006'
+    container_name: dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    depends_on:
+    - openstudiolandscapes-postgres-dagster
+    domainname: farm.evil
+    environment:
+      DAGSTER_DEPLOYMENT: farm
+      DAGSTER_HOME: /dagster/materializations
+    healthcheck:
+      interval: 10s
+      retries: '3'
+      test:
+      - CMD
+      - curl
+      - -f
+      - http://localhost:3006
+      timeout: 2s
+    hostname: dagster.farm.evil
+    image: harbor.farm.evil:80/openstudiolandscapes/dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    networks:
+    - mongodb
+    - repository
+    - ayon
+    - dagster
+    ports:
+    - 3003:3006
+    restart: always
+    volumes:
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations:/dagster/materializations:rw
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:/dagster/workspace.yaml:ro
+  openstudiolandscapes-postgres-dagster:
+    container_name: openstudiolandscapes-postgres-dagster--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+    domainname: farm.evil
+    environment:
+      PGDATA: /var/lib/postgresql/data/pgdata
+      POSTGRES_DB: postgres
+      POSTGRES_PASSWORD: mysecretpassword
+      POSTGRES_USER: postgres
+    healthcheck:
+      interval: 10s
+      retries: '5'
+      test:
+      - CMD-SHELL
+      - pg_isready --username postgres --dbname postgres --port 5432
+      timeout: 8s
+    hostname: openstudiolandscapes-postgres-dagster.farm.evil
+    image: docker.io/postgres
+    networks:
+    - mongodb
+    - repository
+    - ayon
+    - dagster
+    restart: always
+    volumes:
+    - /home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres:/var/lib/postgresql/data/pgdata

@@ -1,0 +1,585 @@
+digraph main_graph {
+	graph [bb="0,0,5547,658",
+		bgcolor="#2f2f2f",
+		fontname=Helvetica,
+		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__DOCKER_\
+COMPOSE/docker_compose/docker-compose.yml",
+		lheight=0.21,
+		lp="2773.5,11.5",
+		lwidth=19.26,
+		nodesep=0.3,
+		pad=1.5,
+		rankdir=LR,
+		ranksep=10,
+		splines=line,
+		style=rounded
+	];
+	node [label="\N"];
+	subgraph "cluster_cluster_root_services_2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default" {
+		graph [bb="1967,170,5539,650",
+			color="#FF00FF",
+			fillcolor="#FF00FF10",
+			fontcolor="#FF00FF",
+			fontname=Helvetica,
+			fontsize=40,
+			label="Compose Services (2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default)",
+			lheight=0.61,
+			lp="3753,624",
+			lwidth=25.26,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_service_kitsu {
+			graph [bb="1975,178,3409,590",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=kitsu,
+				lheight=0.61,
+				lp="2692,564",
+				lwidth=1.35,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_kitsu"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=4.7917,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_kitsu">
+            service_name
+        </td>
+        <td align="left">
+            kitsu
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            kitsu--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            kitsu.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            always
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            bash /opt/zou/start_zou.sh
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+    <!-- DEPENDS_ON -->
+    
+        <tr>
+            <td align="right">
+                depends_on (1)
+            </td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_kitsu-init-db">
+                            kitsu-init-db (condition: service_completed_successfully)
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (6)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            DB_PASSWORD=mysecretpassword
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            ENABLE_JOB_QUEUE=True
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            KITSU_ADMIN=admin@example.com
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            PREVIEW_FOLDER=/opt/zou/previews
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            SECRET_KEY=yourrandomsecretkey
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            TMP_DIR=/opt/zou/tmp
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu__/var/lib/postgresql">
+                            /var/lib/postgresql:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu__/opt/zou/previews">
+                            /opt/zou/previews:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu__/etc/supervisord.conf">
+                            /etc/supervisord.conf:ro
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (3)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        
+                        <td align="left" port="PLUG_kitsu__4545__80">
+                            4545 &#8594; 80
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                ports (1)
+            </td>
+        </tr>
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu">
+                            kitsu
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="2692,358",
+				shape=plain,
+				style=filled,
+				width=19.694];
+		}
+		subgraph "cluster_cluster_service_kitsu-init-db" {
+			graph [bb="4113,178,5531,477",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label="kitsu-init-db",
+				lheight=0.61,
+				lp="4822,451",
+				lwidth=3.35,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_kitsu-init-db"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=3.2083,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_kitsu-init-db">
+            service_name
+        </td>
+        <td align="left">
+            kitsu-init-db
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            kitsu-init-db--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            kitsu-init-db.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            no
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            /usr/bin/bash /opt/zou/init_db.sh
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (5)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            DB_PASSWORD=mysecretpassword
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            KITSU_ADMIN=admin@example.com
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            PREVIEW_FOLDER=/opt/zou/previews
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            SECRET_KEY=yourrandomsecretkey
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            TMP_DIR=/opt/zou/tmp
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_kitsu-init-db__/var/lib/postgresql">
+                            /var/lib/postgresql:rw
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (1)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+</table>>,
+				labeljust=l,
+				pos="4822,301",
+				shape=plain,
+				style=filled,
+				width=19.472];
+		}
+		"NODE-SERVICE_kitsu":"PLUG_DEPENDS_ON_NODE-SERVICE_kitsu-init-db":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_NODE-SERVICE_kitsu-init-db":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,3399,400 e,4121,407 3409.2,400.1 3491,400.89 4038.2,406.2 4112.6,406.92",
+			style=bold];
+	}
+	subgraph cluster_cluster_host {
+		graph [bb="8,31,1279,575",
+			color="#000000",
+			fillcolor="#00000010",
+			fontcolor="#000000",
+			fontname=Helvetica,
+			fontsize=40,
+			label=Host,
+			lheight=0.61,
+			lp="643.5,549",
+			lwidth=1.28,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_root_ports {
+			graph [bb="493.05,379,793.95,515",
+				color="#FFFFFF",
+				fillcolor="#FFFFFF10",
+				fontcolor="#FFFFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Exposed Ports",
+				lheight=0.61,
+				lp="643.5,489",
+				lwidth=3.96,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			kitsu__4545__80	[color=black,
+				fillcolor="#FFFFFF",
+				fontname=Helvetica,
+				height=0.95686,
+				label=4545,
+				pos="643.5,421",
+				shape=circle,
+				style=filled,
+				width=0.95686];
+		}
+		subgraph cluster_cluster_root_volumes {
+			graph [bb="16,151,1271,371",
+				color="#00FFFF",
+				fillcolor="#00FFFF10",
+				fontcolor="#00FFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Mounted Volumes",
+				lheight=0.61,
+				lp="643.5,345",
+				lwidth=5.00,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+conf/supervisord.conf"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+conf/supervisord.conf",
+				pos="643.5,177",
+				shape=box,
+				style="filled,rounded",
+				width=17.208];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql",
+				pos="643.5,293",
+				shape=box,
+				style="filled,rounded",
+				width=15.25];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+previews"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+previews",
+				pos="643.5,235",
+				shape=box,
+				style="filled,rounded",
+				width=15.097];
+		}
+		subgraph cluster_cluster_root_networks {
+			graph [bb="540.5,39,746.5,143",
+				color="#FFA500",
+				fillcolor="#FFA50010",
+				fontcolor="#FFA500",
+				fontname=Helvetica,
+				fontsize=40,
+				label=Networks,
+				lheight=0.61,
+				lp="643.5,117",
+				lwidth=2.64,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			kitsu	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=kitsu,
+				pos="643.5,65",
+				shape=box,
+				style="filled,rounded",
+				width=0.75];
+		}
+	}
+	kitsu__4545__80:e -> "NODE-SERVICE_kitsu":PLUG_kitsu__4545__80:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFFFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,679.5,421 e,1985,217 687.5,419.75 791.37,403.52 1873.7,234.39 1977.1,218.24",
+		style=rounded];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+conf/supervisord.conf":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/etc/supervisord.conf":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1264.5,177 e,1985,238 1272.6,177.69 1346.5,183.94 1903.3,231.09 1977,237.32",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/var/lib/postgresql":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1193.5,293 e,1985,272 1201.6,292.79 1279.7,290.71 1898.6,274.29 1976.9,272.22",
+		style=solid];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+postgresql":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_kitsu-init-db__/var/lib/postgresql":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1192.5,293 e,4124,196 1200.9,292.72 1367.4,287.21 3952,201.69 4115.9,196.27",
+		style=solid];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+previews":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/opt/zou/previews":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1188.5,235 e,1985,255 1196.6,235.2 1275.2,237.18 1898.1,252.82 1976.8,254.79",
+		style=solid];
+	kitsu:e -> "NODE-SERVICE_kitsu":PLUG_kitsu:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,671.5,65 e,1985,196 679.55,65.803 784.06,76.226 1873.1,184.84 1977,195.21",
+		style=solid];
+}

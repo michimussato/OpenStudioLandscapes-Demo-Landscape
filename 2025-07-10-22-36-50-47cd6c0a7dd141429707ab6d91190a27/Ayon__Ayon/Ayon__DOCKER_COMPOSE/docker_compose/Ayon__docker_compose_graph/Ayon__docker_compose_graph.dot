@@ -1,0 +1,697 @@
+digraph main_graph {
+	graph [bb="0,0,4654,680",
+		bgcolor="#2f2f2f",
+		fontname=Helvetica,
+		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_\
+COMPOSE/docker_compose/docker-compose.yml",
+		lheight=0.21,
+		lp="2327,11.5",
+		lwidth=19.26,
+		nodesep=0.3,
+		pad=1.5,
+		rankdir=LR,
+		ranksep=10,
+		splines=line,
+		style=rounded
+	];
+	node [label="\N"];
+	subgraph "cluster_cluster_root_services_2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default" {
+		graph [bb="1849,31,4646,672",
+			color="#FF00FF",
+			fillcolor="#FF00FF10",
+			fontcolor="#FF00FF",
+			fontname=Helvetica,
+			fontsize=40,
+			label="Compose Services (2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default)",
+			lheight=0.61,
+			lp="3247.5,646",
+			lwidth=25.26,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_service_postgres {
+			graph [bb="3555,274,4638,612",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=postgres,
+				lheight=0.61,
+				lp="4096.5,586",
+				lwidth=2.43,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_postgres"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=3.7361,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_postgres">
+            service_name
+        </td>
+        <td align="left">
+            postgres
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            ayon-postgres--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            postgres.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            unless-stopped
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            postgres:${AYON_STACK_POSTGRES_TAG:-15}
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD-SHELL 'pg_isready -U ayon'
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+        <tr>
+            <td align="right">
+                environment (3)
+            </td>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_DB=ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_PASSWORD=ayon
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left">
+                            POSTGRES_USER=ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_postgres__/etc/localtime">
+                            /etc/localtime:ro
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_postgres__/var/lib/postgresql/data">
+                            /var/lib/postgresql/data:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_postgres__/var/lib/postgresql/data">
+                            /var/lib/postgresql/data:rw
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (3)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="4096.5,417",
+				shape=plain,
+				style=filled,
+				width=14.819];
+		}
+		subgraph cluster_cluster_service_redis {
+			graph [bb="3639,39,4554,266",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=redis,
+				lheight=0.61,
+				lp="4096.5,240",
+				lwidth=1.38,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_redis"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=2.2083,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_redis">
+            service_name
+        </td>
+        <td align="left">
+            redis
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            ayon-redis--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            redis.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            unless-stopped
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            redis:alpine
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD-SHELL 'redis-cli ping | grep PONG'
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+    <!-- ENVIRONMENT -->
+    
+    <!-- VOLUMES -->
+    
+    <!-- PORTS -->
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="4096.5,126",
+				shape=plain,
+				style=filled,
+				width=12.486];
+		}
+		subgraph cluster_cluster_service_server {
+			graph [bb="1857,270,2851,612",
+				color=white,
+				fillcolor="#00FFFF10",
+				fontcolor=white,
+				fontname=Helvetica,
+				label=server,
+				lheight=0.61,
+				lp="2354,586",
+				lwidth=1.78,
+				rankdir=TB,
+				shape=square,
+				style="filled,rounded"
+			];
+			"NODE-SERVICE_server"	[color="#0A0A0A",
+				fillcolor="#A0A0A0",
+				fontname=Helvetica,
+				height=3.7917,
+				label=<<table border="1" cellspacing="0" cellpadding="0">
+    <!-- SERVICE_NAME -->
+    <tr>
+        <td align="right" port="PLUG_NODE-SERVICE_server">
+            service_name
+        </td>
+        <td align="left">
+            server
+        </td>
+    </tr>
+    <!-- CONTAINER_NAME -->
+    <tr>
+        <td align="right">
+            container_name
+        </td>
+        <td align="left">
+            ayon-server--2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+        </td>
+    </tr>
+    <!-- HOSTNAME -->
+    <tr>
+        <td align="right">
+            hostname
+        </td>
+        <td align="left">
+            server.farm.evil
+        </td>
+    </tr>
+    <!-- DOMAINNAME -->
+    <tr>
+        <td align="right">
+            domainname
+        </td>
+        <td align="left">
+            farm.evil
+        </td>
+    </tr>
+    <!-- RESTART -->
+    <tr>
+        <td align="right">
+            restart
+        </td>
+        <td align="left">
+            unless-stopped
+        </td>
+    </tr>
+    <!-- IMAGE -->
+    <tr>
+        <td align="right">
+            image
+        </td>
+        <td align="left">
+            ynput/ayon:${AYON_STACK_SERVER_TAG:-latest}
+        </td>
+    </tr>
+    <!-- COMMAND -->
+    <tr>
+        <td align="right">
+            command (ENTRYPOINT +)
+        </td>
+        <td align="left">
+            -
+        </td>
+    </tr>
+    <!-- HEALTHCHECK -->
+    
+        <tr>
+            <td align="right">
+                healthcheck
+            </td>
+            <td align="left">
+                CMD curl -f http://localhost:5000/api/info
+            </td>
+        </tr>
+    
+    <!-- DEPENDS_ON -->
+    
+        <tr>
+            <td align="right">
+                depends_on (2)
+            </td>
+            <td>
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_postgres">
+                            postgres (condition: service_healthy)
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_DEPENDS_ON_NODE-SERVICE_redis">
+                            redis (condition: service_started)
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    <!-- ENVIRONMENT -->
+    
+    <!-- VOLUMES -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_server__/addons">
+                            /addons:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_server__/storage">
+                            /storage:rw
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td align="left" port="PLUG_server__/etc/localtime">
+                            /etc/localtime:ro
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                volumes (3)
+            </td>
+        </tr>
+    
+    <!-- PORTS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        
+                        <td align="left" port="PLUG_server__5005__5000">
+                            5005 &#8594; 5000
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                ports (1)
+            </td>
+        </tr>
+    
+    <!-- NETWORKS -->
+    
+        <tr>
+            <td align="left">
+                <table border="1" cellspacing="0" cellpadding="0">
+                    
+                    <tr>
+                        <td align="left" port="PLUG_ayon">
+                            ayon
+                        </td>
+                    </tr>
+                    
+                </table>
+            </td>
+            <td align="left">
+                networks (1)
+            </td>
+        </tr>
+    
+</table>>,
+				labeljust=l,
+				pos="2354,415",
+				shape=plain,
+				style=filled,
+				width=13.583];
+		}
+		"NODE-SERVICE_server":"PLUG_DEPENDS_ON_NODE-SERVICE_postgres":e -> "NODE-SERVICE_postgres":"PLUG_NODE-SERVICE_postgres":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,2841,403 e,3563.5,542 2850.9,404.91 2932,420.5 3482.8,526.47 3555.6,540.47",
+			style=bold];
+		"NODE-SERVICE_server":"PLUG_DEPENDS_ON_NODE-SERVICE_redis":e -> "NODE-SERVICE_redis":"PLUG_NODE-SERVICE_redis":w	[arrowhead=dot,
+			arrowtail=inv,
+			color=yellow,
+			dir=both,
+			fontname=Helvetica,
+			pos="s,2841,386 e,3647.5,196 2850.9,383.67 2937.3,363.31 3561.8,216.18 3639.6,197.87",
+			style=bold];
+	}
+	subgraph cluster_cluster_host {
+		graph [bb="8,43,1161,529",
+			color="#000000",
+			fillcolor="#00000010",
+			fontcolor="#000000",
+			fontname=Helvetica,
+			fontsize=40,
+			label=Host,
+			lheight=0.61,
+			lp="584.5,503",
+			lwidth=1.28,
+			rankdir=TB,
+			style="filled,rounded"
+		];
+		subgraph cluster_cluster_root_ports {
+			graph [bb="434.05,333,734.95,469",
+				color="#FFFFFF",
+				fillcolor="#FFFFFF10",
+				fontcolor="#FFFFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Exposed Ports",
+				lheight=0.61,
+				lp="584.5,443",
+				lwidth=3.96,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			server__5005__5000	[color=black,
+				fillcolor="#FFFFFF",
+				fontname=Helvetica,
+				height=0.95686,
+				label=5005,
+				pos="584.5,375",
+				shape=circle,
+				style=filled,
+				width=0.95686];
+		}
+		subgraph cluster_cluster_root_volumes {
+			graph [bb="16,163,1153,325",
+				color="#00FFFF",
+				fillcolor="#00FFFF10",
+				fontcolor="#00FFFF",
+				fontname=Helvetica,
+				fontsize=40,
+				label="Mounted Volumes",
+				lheight=0.61,
+				lp="584.5,299",
+				lwidth=5.00,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			"/etc/localtime"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/etc/localtime",
+				pos="584.5,247",
+				shape=box,
+				style="filled,rounded",
+				width=1.5139];
+			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+postgresql"	[color=black,
+				fillcolor="#00FFFF",
+				fontname=Helvetica,
+				height=0.5,
+				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+postgresql",
+				pos="584.5,189",
+				shape=box,
+				style="filled,rounded",
+				width=15.569];
+		}
+		subgraph cluster_cluster_root_networks {
+			graph [bb="481.5,51,687.5,155",
+				color="#FFA500",
+				fillcolor="#FFA50010",
+				fontcolor="#FFA500",
+				fontname=Helvetica,
+				fontsize=40,
+				label=Networks,
+				lheight=0.61,
+				lp="584.5,129",
+				lwidth=2.64,
+				rankdir=TB,
+				style="filled,rounded"
+			];
+			ayon	[color=black,
+				fillcolor="#FFA500",
+				fontname=Helvetica,
+				height=0.5,
+				label=ayon,
+				pos="584.5,77",
+				shape=box,
+				style="filled,rounded",
+				width=0.75];
+		}
+	}
+	server__5005__5000:e -> "NODE-SERVICE_server":PLUG_server__5005__5000:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFFFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,620.5,375 e,1867,310 628.79,374.57 731.55,369.21 1757,315.74 1858.9,310.42",
+		style=rounded];
+	"/etc/localtime":e -> "NODE-SERVICE_postgres":"PLUG_postgres__/etc/localtime":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,639.5,247 e,3566.5,348 647.9,247.29 814.13,253.03 3394.7,342.07 3558.4,347.72",
+		style=dashed];
+	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+postgresql":e -> "NODE-SERVICE_postgres":"PLUG_postgres__/var/lib/postgresql/data":w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#00FFFF",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,1145.5,189 e,3566.5,331 1153.8,189.49 1302.7,198.22 3410.3,321.84 3558.3,330.52",
+		style=dashed];
+	ayon:e -> "NODE-SERVICE_postgres":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,611.5,77 e,3566.5,293 619.72,77.601 785.08,89.688 3392.9,280.31 3558.3,292.4",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_redis":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,611.5,77 e,3650.5,57 619.69,76.946 787.31,75.843 3474.5,58.158 3642.3,57.054",
+		style=solid];
+	ayon:e -> "NODE-SERVICE_server":PLUG_ayon:w	[arrowhead=dot,
+		arrowtail=dot,
+		color="#FFA500",
+		dir=both,
+		fontname=Helvetica,
+		pos="s,612.5,77 e,1867,289 620.51,78.354 722.14,95.528 1758.2,270.61 1859.1,287.67",
+		style=solid];
+}

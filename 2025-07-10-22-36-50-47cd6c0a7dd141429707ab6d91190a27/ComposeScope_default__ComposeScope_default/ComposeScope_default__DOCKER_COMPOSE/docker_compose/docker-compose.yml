@@ -1,0 +1,5 @@
+include:
+- path:
+  - ../../../../2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker-compose.yml
+  - ../../../../2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__DOCKER_COMPOSE/docker_compose/docker-compose.yml
+  - ../../../../2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__DOCKER_COMPOSE/docker_compose/docker-compose.yml
