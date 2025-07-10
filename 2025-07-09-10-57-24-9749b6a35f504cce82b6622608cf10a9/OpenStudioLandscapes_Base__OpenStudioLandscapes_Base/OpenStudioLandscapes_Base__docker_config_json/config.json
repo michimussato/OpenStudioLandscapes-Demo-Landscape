@@ -1,7 +1,0 @@
-{
-	"auths": {
-		"harbor.farm.evil:80": {
-			"auth": "YWRtaW46SGFyYm9yMTIzNDU="
-		}
-	}
-}
