@@ -5,6 +5,7 @@
 <!-- TOC -->
 * [OpenStudioLandscapes-Demo-Landscape](#openstudiolandscapes-demo-landscape)
   * [Brief](#brief)
+  * [Requirements](#requirements)
   * [Clone](#clone)
 * [Run Landscape](#run-landscape)
   * [Full Landscape](#full-landscape)
@@ -55,6 +56,11 @@ Features can be accessed using these URL's:
 | OpenStudioLandscapes-Dagster | http://localhost:3003 |
 | OpenStudioLandscapes-Kitsu   | http://localhost:4545 |
 
+
+## Requirements
+
+- `git`
+- `docker` (see [Socker Setup](https://docs.docker.com/engine/install/))
 
 ## Clone
 
