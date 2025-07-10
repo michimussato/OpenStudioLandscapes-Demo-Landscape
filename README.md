@@ -37,8 +37,9 @@ available for inspection here:
 - [michimussato/openstudiolandscapes_dagster_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_dagster_build_docker_image)
 - [michimussato/openstudiolandscapes_kitsu_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_kitsu_build_docker_image)
 
-This Demo Landscape lets you bypass the OpenStudioLandscapes set up procedure and
-gives you a quick way to examine a Landscape and experiment with it. 
+This Demo Landscape lets you bypass the 
+[OpenStudioLandscapes set up procedure](https://github.com/michimussato/OpenStudioLandscapes/blob/main/wiki/README.md#installation-methods)
+and gives you a quick way to examine a Landscape and experiment with it. 
 This Landscape comes with these
 Features:
 - [OpenStudioLandscapes-Ayon](https://github.com/michimussato/OpenStudioLandscapes-Ayon)
