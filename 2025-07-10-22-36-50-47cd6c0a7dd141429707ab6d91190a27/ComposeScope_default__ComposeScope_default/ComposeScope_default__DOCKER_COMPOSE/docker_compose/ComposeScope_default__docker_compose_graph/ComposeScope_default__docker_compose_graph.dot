@@ -2,7 +2,7 @@ digraph main_graph {
 	graph [bb="0,0,5651,1717",
 		bgcolor="#2f2f2f",
 		fontname=Helvetica,
-		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__\
+		label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__\
 ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-compose.yml",
 		lheight=0.21,
 		lp="2825.5,11.5",
@@ -1448,66 +1448,66 @@ ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-
 				rankdir=TB,
 				style="filled,rounded"
 			];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 dagster_yaml/materializations"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 dagster_yaml/materializations",
 				pos="670,641",
 				shape=box,
 				style="filled,rounded",
 				width=17.625];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 workspace_yaml/workspace.yaml"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 workspace_yaml/workspace.yaml",
 				pos="670,583",
 				shape=box,
 				style="filled,rounded",
 				width=17.944];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
 conf/supervisord.conf"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
 conf/supervisord.conf",
 				pos="670,699",
 				shape=box,
 				style="filled,rounded",
 				width=17.208];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 postgresql"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 postgresql",
 				pos="670,815",
 				shape=box,
 				style="filled,rounded",
 				width=15.25];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 previews"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 previews",
 				pos="670,757",
 				shape=box,
 				style="filled,rounded",
 				width=15.097];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres"	[color=black,
+			"./.dagster/postgres"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres",
+				label="./.dagster/postgres",
 				pos="670,409",
 				shape=box,
 				style="filled,rounded",
@@ -1521,12 +1521,12 @@ previews",
 				shape=box,
 				style="filled,rounded",
 				width=1.5139];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
 postgresql"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
 postgresql",
 				pos="670,467",
 				shape=box,
@@ -1615,7 +1615,7 @@ postgresql",
 		fontname=Helvetica,
 		pos="s,706,1034 e,2283.5,927 714.11,1033.4 830.36,1025.6 2158.8,935.46 2275.3,927.55",
 		style=rounded];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 dagster_yaml/materializations":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/materializations":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -1623,7 +1623,7 @@ dagster_yaml/materializations":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagst
 		fontname=Helvetica,
 		pos="s,1306,641 e,2038.5,612 1314.2,640.67 1389.4,637.7 1955.5,615.29 2030.3,612.32",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 workspace_yaml/workspace.yaml":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/workspace.yaml":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -1631,7 +1631,7 @@ workspace_yaml/workspace.yaml":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagst
 		fontname=Helvetica,
 		pos="s,1317,583 e,2038.5,595 1325.1,583.13 1399.1,584.37 1956.7,593.64 2030.5,594.87",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_\
 conf/supervisord.conf":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/etc/supervisord.conf":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -1639,7 +1639,7 @@ conf/supervisord.conf":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/etc/supervisord.c
 		fontname=Helvetica,
 		pos="s,1291,699 e,2063.5,1297 1297.7,704.17 1368.9,759.31 1987.3,1238 2057.1,1292",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 postgresql":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/var/lib/postgresql":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -1647,7 +1647,7 @@ postgresql":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/var/lib/postgresql":w	[arrow
 		fontname=Helvetica,
 		pos="s,1220,815 e,2063.5,1331 1227.3,819.46 1305.1,867.04 1980.3,1280.1 2056.5,1326.7",
 		style=solid];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 postgresql":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_kitsu-init-db__/var/lib/postgresql":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -1655,7 +1655,7 @@ postgresql":e -> "NODE-SERVICE_kitsu-init-db":"PLUG_kitsu-init-db__/var/lib/post
 		fontname=Helvetica,
 		pos="s,1219,815 e,4228,1368 1227.1,816.49 1393.1,846.99 4053.7,1336 4219.9,1366.5",
 		style=solid];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/\
 previews":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/opt/zou/previews":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -1663,7 +1663,7 @@ previews":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/opt/zou/previews":w	[arrowhead
 		fontname=Helvetica,
 		pos="s,1215,757 e,2063.5,1314 1221.8,761.48 1297.6,811.21 1979.4,1258.8 2056.4,1309.4",
 		style=solid];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata":w	[arrowhead=dot,
+	"./.dagster/postgres":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
 		dir=both,
@@ -1677,7 +1677,7 @@ previews":e -> "NODE-SERVICE_kitsu":"PLUG_kitsu__/opt/zou/previews":w	[arrowhead
 		fontname=Helvetica,
 		pos="s,725,525 e,4396,1078 733.08,526.22 917.73,554.03 4205.2,1049.3 4388.1,1076.8",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon-db/\
 postgresql":e -> "NODE-SERVICE_postgres":"PLUG_postgres__/var/lib/postgresql/data":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",

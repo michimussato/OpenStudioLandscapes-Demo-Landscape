@@ -9,7 +9,7 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(108 788)">
 <title>main_graph</title>
 <polygon fill="#2f2f2f" stroke="transparent" points="-108,108 -108,-788 4762,-788 4762,108 -108,108"/>
-<text text-anchor="middle" x="2327" y="-7.8" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker&#45;compose.yml</text>
+<text text-anchor="middle" x="2327" y="-7.8" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/Ayon__DOCKER_COMPOSE/docker_compose/docker&#45;compose.yml</text>
 <g id="clust1" class="cluster">
 <title>cluster_cluster_root_services_2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27&#45;default</title>
 <path fill="#ff00ff" fill-opacity="0.062745" stroke="#ff00ff" d="M1861,-31C1861,-31 4634,-31 4634,-31 4640,-31 4646,-37 4646,-43 4646,-43 4646,-660 4646,-660 4646,-666 4640,-672 4634,-672 4634,-672 1861,-672 1861,-672 1855,-672 1849,-666 1849,-660 1849,-660 1849,-43 1849,-43 1849,-37 1855,-31 1861,-31"/>
@@ -266,15 +266,15 @@
 <ellipse fill="#00ffff" stroke="#00ffff" cx="643.5" cy="-247.14" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="3562.5" cy="-347.86" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql -->
 <g id="node6" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</title>
 <path fill="#00ffff" stroke="black" d="M1133,-207C1133,-207 36,-207 36,-207 30,-207 24,-201 24,-195 24,-195 24,-183 24,-183 24,-177 30,-171 36,-171 36,-171 1133,-171 1133,-171 1139,-171 1145,-177 1145,-183 1145,-183 1145,-195 1145,-195 1145,-201 1139,-207 1133,-207"/>
-<text text-anchor="middle" x="584.5" y="-185.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</text>
+<text text-anchor="middle" x="584.5" y="-185.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql&#45;&gt;NODE&#45;SERVICE_postgres -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql&#45;&gt;NODE&#45;SERVICE_postgres -->
 <g id="edge5" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql:e&#45;&gt;NODE&#45;SERVICE_postgres:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql:e&#45;&gt;NODE&#45;SERVICE_postgres:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1153.79,-189.49C1302.74,-198.22 3410.31,-321.84 3558.32,-330.52"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1149.49" cy="-189.23" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="3562.51" cy="-330.77" rx="4" ry="4"/>

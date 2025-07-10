@@ -9,7 +9,7 @@
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(108 1825)">
 <title>main_graph</title>
 <polygon fill="#2f2f2f" stroke="transparent" points="-108,108 -108,-1825 5759,-1825 5759,108 -108,108"/>
-<text text-anchor="middle" x="2825.5" y="-7.8" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker&#45;compose.yml</text>
+<text text-anchor="middle" x="2825.5" y="-7.8" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker&#45;compose.yml</text>
 <g id="clust1" class="cluster">
 <title>cluster_cluster_root_services_2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27&#45;default</title>
 <path fill="#ff00ff" fill-opacity="0.062745" stroke="#ff00ff" d="M2032,-381C2032,-381 5631,-381 5631,-381 5637,-381 5643,-387 5643,-393 5643,-393 5643,-1697 5643,-1697 5643,-1703 5637,-1709 5631,-1709 5631,-1709 2032,-1709 2032,-1709 2026,-1709 2020,-1703 2020,-1697 2020,-1697 2020,-393 2020,-393 2020,-387 2026,-381 2032,-381"/>
@@ -591,87 +591,87 @@
 <ellipse fill="#ffffff" stroke="#ffffff" cx="709.99" cy="-1033.73" rx="4" ry="4"/>
 <ellipse fill="#ffffff" stroke="#ffffff" cx="2279.51" cy="-927.27" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations -->
 <g id="node11" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations</title>
 <path fill="#00ffff" stroke="black" d="M1292.5,-659C1292.5,-659 47.5,-659 47.5,-659 41.5,-659 35.5,-653 35.5,-647 35.5,-647 35.5,-635 35.5,-635 35.5,-629 41.5,-623 47.5,-623 47.5,-623 1292.5,-623 1292.5,-623 1298.5,-623 1304.5,-629 1304.5,-635 1304.5,-635 1304.5,-647 1304.5,-647 1304.5,-653 1298.5,-659 1292.5,-659"/>
-<text text-anchor="middle" x="670" y="-637.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations</text>
+<text text-anchor="middle" x="670" y="-637.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations&#45;&gt;NODE&#45;SERVICE_dagster -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations&#45;&gt;NODE&#45;SERVICE_dagster -->
 <g id="edge8" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__dagster_yaml/materializations:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1314.23,-640.67C1389.36,-637.7 1955.48,-615.29 2030.34,-612.32"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1310" cy="-640.84" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2034.5" cy="-612.16" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml -->
 <g id="node12" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</title>
 <path fill="#00ffff" stroke="black" d="M1304,-601C1304,-601 36,-601 36,-601 30,-601 24,-595 24,-589 24,-589 24,-577 24,-577 24,-571 30,-565 36,-565 36,-565 1304,-565 1304,-565 1310,-565 1316,-571 1316,-577 1316,-577 1316,-589 1316,-589 1316,-595 1310,-601 1304,-601"/>
-<text text-anchor="middle" x="670" y="-579.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</text>
+<text text-anchor="middle" x="670" y="-579.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml&#45;&gt;NODE&#45;SERVICE_dagster -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml&#45;&gt;NODE&#45;SERVICE_dagster -->
 <g id="edge9" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__workspace_yaml/workspace.yaml:e&#45;&gt;NODE&#45;SERVICE_dagster:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1325.1,-583.13C1399.11,-584.37 1956.73,-593.64 2030.46,-594.87"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1321" cy="-583.07" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2034.5" cy="-594.93" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf -->
 <g id="node13" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf</title>
 <path fill="#00ffff" stroke="black" d="M1277.5,-717C1277.5,-717 62.5,-717 62.5,-717 56.5,-717 50.5,-711 50.5,-705 50.5,-705 50.5,-693 50.5,-693 50.5,-687 56.5,-681 62.5,-681 62.5,-681 1277.5,-681 1277.5,-681 1283.5,-681 1289.5,-687 1289.5,-693 1289.5,-693 1289.5,-705 1289.5,-705 1289.5,-711 1283.5,-717 1277.5,-717"/>
-<text text-anchor="middle" x="670" y="-695.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf</text>
+<text text-anchor="middle" x="670" y="-695.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf&#45;&gt;NODE&#45;SERVICE_kitsu -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf&#45;&gt;NODE&#45;SERVICE_kitsu -->
 <g id="edge10" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf:e&#45;&gt;NODE&#45;SERVICE_kitsu:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/Kitsu__supervisord_conf/supervisord.conf:e&#45;&gt;NODE&#45;SERVICE_kitsu:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1297.68,-704.17C1368.91,-759.31 1987.27,-1237.99 2057.09,-1292.04"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1294.16" cy="-701.45" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2060.34" cy="-1294.55" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql -->
 <g id="node14" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql</title>
 <path fill="#00ffff" stroke="black" d="M1207,-833C1207,-833 133,-833 133,-833 127,-833 121,-827 121,-821 121,-821 121,-809 121,-809 121,-803 127,-797 133,-797 133,-797 1207,-797 1207,-797 1213,-797 1219,-803 1219,-809 1219,-809 1219,-821 1219,-821 1219,-827 1213,-833 1207,-833"/>
-<text text-anchor="middle" x="670" y="-811.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql</text>
+<text text-anchor="middle" x="670" y="-811.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql&#45;&gt;NODE&#45;SERVICE_kitsu -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql&#45;&gt;NODE&#45;SERVICE_kitsu -->
 <g id="edge11" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql:e&#45;&gt;NODE&#45;SERVICE_kitsu:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql:e&#45;&gt;NODE&#45;SERVICE_kitsu:w</title>
 <path fill="none" stroke="#00ffff" d="M1227.29,-819.46C1305.07,-867.04 1980.27,-1280.08 2056.5,-1326.72"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1223.41" cy="-817.09" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2060.09" cy="-1328.91" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql&#45;&gt;NODE&#45;SERVICE_kitsu&#45;init&#45;db -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql&#45;&gt;NODE&#45;SERVICE_kitsu&#45;init&#45;db -->
 <g id="edge13" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql:e&#45;&gt;NODE&#45;SERVICE_kitsu&#45;init&#45;db:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/postgresql:e&#45;&gt;NODE&#45;SERVICE_kitsu&#45;init&#45;db:w</title>
 <path fill="none" stroke="#00ffff" d="M1227.11,-816.49C1393.07,-846.99 4053.75,-1335.98 4219.88,-1366.51"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1222.93" cy="-815.72" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="4224.07" cy="-1367.28" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews -->
 <g id="node15" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews</title>
 <path fill="#00ffff" stroke="black" d="M1201.5,-775C1201.5,-775 138.5,-775 138.5,-775 132.5,-775 126.5,-769 126.5,-763 126.5,-763 126.5,-751 126.5,-751 126.5,-745 132.5,-739 138.5,-739 138.5,-739 1201.5,-739 1201.5,-739 1207.5,-739 1213.5,-745 1213.5,-751 1213.5,-751 1213.5,-763 1213.5,-763 1213.5,-769 1207.5,-775 1201.5,-775"/>
-<text text-anchor="middle" x="670" y="-753.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews</text>
+<text text-anchor="middle" x="670" y="-753.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews&#45;&gt;NODE&#45;SERVICE_kitsu -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews&#45;&gt;NODE&#45;SERVICE_kitsu -->
 <g id="edge12" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews:e&#45;&gt;NODE&#45;SERVICE_kitsu:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Kitsu__Kitsu/data/kitsu/previews:e&#45;&gt;NODE&#45;SERVICE_kitsu:w</title>
 <path fill="none" stroke="#00ffff" d="M1221.83,-761.48C1297.58,-811.21 1979.44,-1258.82 2056.43,-1309.36"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1218.34" cy="-759.2" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="2060.16" cy="-1311.8" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres -->
+<!-- ./.dagster/postgres -->
 <g id="node16" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres</title>
+<title>./.dagster/postgres</title>
 <path fill="#00ffff" stroke="black" d="M929,-427C929,-427 411,-427 411,-427 405,-427 399,-421 399,-415 399,-415 399,-403 399,-403 399,-397 405,-391 411,-391 411,-391 929,-391 929,-391 935,-391 941,-397 941,-403 941,-403 941,-415 941,-415 941,-421 935,-427 929,-427"/>
-<text text-anchor="middle" x="670" y="-405.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres</text>
+<text text-anchor="middle" x="670" y="-405.3" font-family="Helvetica,sans-Serif" font-size="14.00">./.dagster/postgres</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster -->
+<!-- ./.dagster/postgres&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster -->
 <g id="edge14" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres:e&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster:w</title>
+<title>./.dagster/postgres:e&#45;&gt;NODE&#45;SERVICE_openstudiolandscapes&#45;postgres&#45;dagster:w</title>
 <path fill="none" stroke="#00ffff" d="M949.15,-409.17C1125.21,-412.92 4095.02,-476.07 4271.78,-479.83"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="945" cy="-409.09" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="4276" cy="-479.91" rx="4" ry="4"/>
@@ -689,15 +689,15 @@
 <ellipse fill="#00ffff" stroke="#00ffff" cx="728.96" cy="-525.6" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="4392.04" cy="-1077.4" rx="4" ry="4"/>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql -->
 <g id="node18" class="node">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</title>
 <path fill="#00ffff" stroke="black" d="M1218.5,-485C1218.5,-485 121.5,-485 121.5,-485 115.5,-485 109.5,-479 109.5,-473 109.5,-473 109.5,-461 109.5,-461 109.5,-455 115.5,-449 121.5,-449 121.5,-449 1218.5,-449 1218.5,-449 1224.5,-449 1230.5,-455 1230.5,-461 1230.5,-461 1230.5,-473 1230.5,-473 1230.5,-479 1224.5,-485 1218.5,-485"/>
-<text text-anchor="middle" x="670" y="-463.3" font-family="Helvetica,sans-Serif" font-size="14.00">/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</text>
+<text text-anchor="middle" x="670" y="-463.3" font-family="Helvetica,sans-Serif" font-size="14.00">./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql</text>
 </g>
-<!-- /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql&#45;&gt;NODE&#45;SERVICE_postgres -->
+<!-- ./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql&#45;&gt;NODE&#45;SERVICE_postgres -->
 <g id="edge16" class="edge">
-<title>/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql:e&#45;&gt;NODE&#45;SERVICE_postgres:w</title>
+<title>./2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27/Ayon__Ayon/data/ayon&#45;db/postgresql:e&#45;&gt;NODE&#45;SERVICE_postgres:w</title>
 <path fill="none" stroke="#00ffff" stroke-dasharray="5,2" d="M1238.99,-468.5C1408.44,-500.3 4218.01,-1027.59 4387.96,-1059.49"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="1234.93" cy="-467.74" rx="4" ry="4"/>
 <ellipse fill="#00ffff" stroke="#00ffff" cx="4392.07" cy="-1060.26" rx="4" ry="4"/>

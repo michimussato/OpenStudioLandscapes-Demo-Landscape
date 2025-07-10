@@ -2,7 +2,7 @@ digraph main_graph {
 	graph [bb="0,0,5548,757",
 		bgcolor="#2f2f2f",
 		fontname=Helvetica,
-		label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+		label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 DOCKER_COMPOSE/docker_compose/docker-compose.yml",
 		lheight=0.21,
 		lp="2774,11.5",
@@ -512,33 +512,33 @@ DOCKER_COMPOSE/docker_compose/docker-compose.yml",
 				rankdir=TB,
 				style="filled,rounded"
 			];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 dagster_yaml/materializations"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 dagster_yaml/materializations",
 				pos="670,467",
 				shape=box,
 				style="filled,rounded",
 				width=17.625];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+			"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 workspace_yaml/workspace.yaml"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+				label="./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 workspace_yaml/workspace.yaml",
 				pos="670,409",
 				shape=box,
 				style="filled,rounded",
 				width=17.944];
-			"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres"	[color=black,
+			"./.dagster/postgres"	[color=black,
 				fillcolor="#00FFFF",
 				fontname=Helvetica,
 				height=0.5,
-				label="/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres",
+				label="./.dagster/postgres",
 				pos="670,351",
 				shape=box,
 				style="filled,rounded",
@@ -603,7 +603,7 @@ workspace_yaml/workspace.yaml",
 		fontname=Helvetica,
 		pos="s,706,595 e,2038.5,382 714.16,593.7 820.18,576.75 1924.9,400.15 2030.4,383.29",
 		style=rounded];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 dagster_yaml/materializations":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/materializations":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -611,7 +611,7 @@ dagster_yaml/materializations":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagst
 		fontname=Helvetica,
 		pos="s,1306,467 e,2038.5,420 1314.2,466.47 1389.4,461.65 1955.5,425.33 2030.3,420.52",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
+	"./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/Dagster__Dagster/Dagster__\
 workspace_yaml/workspace.yaml":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagster/workspace.yaml":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
@@ -619,7 +619,7 @@ workspace_yaml/workspace.yaml":e -> "NODE-SERVICE_dagster":"PLUG_dagster__/dagst
 		fontname=Helvetica,
 		pos="s,1317,409 e,2038.5,403 1325.1,408.93 1399.1,408.32 1956.7,403.68 2030.5,403.07",
 		style=dashed];
-	"/home/user/git/repos/OpenStudioLandscapes/.landscapes/.dagster/postgres":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata":w	[arrowhead=dot,
+	"./.dagster/postgres":e -> "NODE-SERVICE_openstudiolandscapes-postgres-dagster":"PLUG_openstudiolandscapes-postgres-dagster__/var/lib/postgresql/data/pgdata":w	[arrowhead=dot,
 		arrowtail=dot,
 		color="#00FFFF",
 		dir=both,

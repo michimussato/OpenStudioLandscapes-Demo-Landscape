@@ -3,6 +3,6 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-/usr/bin/docker --config /home/user/git/repos/OpenStudioLandscapes/.landscapes/2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file "${SCRIPT_DIR}"/docker-compose.yml --project-name 2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default logs --follow
+/usr/bin/docker --config ./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/OpenStudioLandscapes_Base__OpenStudioLandscapes_Base/OpenStudioLandscapes_Base__docker_config_json compose --progress plain --file "${SCRIPT_DIR}"/docker-compose.yml --project-name 2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27-default logs --follow
 
 exit 0;
