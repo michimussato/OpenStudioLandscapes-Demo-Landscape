@@ -72,7 +72,7 @@
 <polygon fill="none" stroke="#0a0a0a" points="2037.5,-524 2037.5,-541 2472.5,-541 2472.5,-524 2037.5,-524"/>
 <text text-anchor="start" x="2338.5" y="-528.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;image &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2472.5,-524 2472.5,-541 3504.5,-541 3504.5,-524 2472.5,-524"/>
-<text text-anchor="start" x="2473.5" y="-528.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;harbor.farm.evil:80/openstudiolandscapes/dagster_build_docker_image:2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
+<text text-anchor="start" x="2473.5" y="-528.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025&#45;07&#45;10&#45;22&#45;36&#45;50&#45;47cd6c0a7dd141429707ab6d91190a27 &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2037.5,-507 2037.5,-524 2472.5,-524 2472.5,-507 2037.5,-507"/>
 <text text-anchor="start" x="2192.5" y="-511.8" font-family="Helvetica,sans-Serif" font-size="14.00"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;command (ENTRYPOINT +) &#160;&#160;&#160;&#160;&#160;&#160;&#160;</text>
 <polygon fill="none" stroke="#0a0a0a" points="2472.5,-507 2472.5,-524 3504.5,-524 3504.5,-507 2472.5,-507"/>

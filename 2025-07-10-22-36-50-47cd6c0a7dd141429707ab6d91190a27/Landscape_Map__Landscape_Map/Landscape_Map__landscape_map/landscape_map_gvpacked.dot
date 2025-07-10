@@ -785,7 +785,7 @@ ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-
             image
         </td>
         <td align="left">
-            harbor.farm.evil:80/openstudiolandscapes/dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+            docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
         </td>
     </tr>
     <!-- COMMAND -->
@@ -1262,7 +1262,7 @@ ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-
             image
         </td>
         <td align="left">
-            harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+            docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
         </td>
     </tr>
     <!-- COMMAND -->
@@ -1518,7 +1518,7 @@ ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker-
             image
         </td>
         <td align="left">
-            harbor.farm.evil:80/openstudiolandscapes/kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
+            docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image:2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27
         </td>
     </tr>
     <!-- COMMAND -->
