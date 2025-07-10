@@ -84,11 +84,6 @@ cd OpenStudioLandscapes-Demo-Landscape
 ./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
-
-```shell
-sudo git clean --force -x .
-```
-
 ## Individual Features
 
 ### Ayon
@@ -143,6 +138,11 @@ sudo git clean --force -x .
 
 > [!WARNING]
 > All untracked/changed data in `cwd` will be erased and reset
+
+
+```shell
+sudo git clean --force -x .
+```
 
 # Docker
 
