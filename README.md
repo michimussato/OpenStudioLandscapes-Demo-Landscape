@@ -9,7 +9,7 @@
   * [Clone](#clone)
 * [Run Landscape](#run-landscape)
   * [Full Landscape](#full-landscape)
-  * [Individual Features](#individual-features)
+  * [Breakdown: Individual Features](#breakdown-individual-features)
     * [Ayon](#ayon)
     * [Dagster](#dagster)
     * [Kitsu](#kitsu)
@@ -91,7 +91,7 @@ cd OpenStudioLandscapes-Demo-Landscape
 ./2025-07-10-22-36-50-47cd6c0a7dd141429707ab6d91190a27/ComposeScope_default__ComposeScope_default/ComposeScope_default__DOCKER_COMPOSE/docker_compose/docker_compose_down.sh
 ```
 
-## Individual Features
+## Breakdown: Individual Features
 
 ### Ayon
 
