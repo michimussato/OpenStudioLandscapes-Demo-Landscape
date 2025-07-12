@@ -36,9 +36,9 @@ Alongside the data contained in this repository, OpenStudioLandscapes
 also automatically created the Docker images which this Landscape needs. 
 They will be pulled automatically upon Landscape launch, however, the images are 
 available for inspection here:
-- [michimussato/openstudiolandscapes_base_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_base_build_docker_image)
-- [michimussato/openstudiolandscapes_dagster_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_dagster_build_docker_image)
-- [michimussato/openstudiolandscapes_kitsu_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_kitsu_build_docker_image)
+- [docker.io/michimussato/openstudiolandscapes_base_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_base_build_docker_image)
+- [docker.io/michimussato/openstudiolandscapes_dagster_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_dagster_build_docker_image)
+- [docker.io/michimussato/openstudiolandscapes_kitsu_build_docker_image](https://hub.docker.com/repository/docker/michimussato/openstudiolandscapes_kitsu_build_docker_image)
 
 This Demo Landscape lets you bypass the 
 [OpenStudioLandscapes set up procedure](https://github.com/michimussato/OpenStudioLandscapes/blob/main/wiki/README.md#installation-methods)
