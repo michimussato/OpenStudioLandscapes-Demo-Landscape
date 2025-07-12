@@ -30,6 +30,8 @@ This is a pre-made (and slightly adjusted) Demo Landscape. You can use
 [OpenStudioLandscapes](https://github.com/michimussato/OpenStudioLandscapes)
 to create Landscapes similar to this one.
 
+![Dagster_Lineage.png](media/images/Dagster_Lineage.png)
+
 Alongside the data contained in this repository, OpenStudioLandscapes
 also automatically created the Docker images which this Landscape needs. 
 They will be pulled automatically upon Landscape launch, however, the images are 
@@ -55,7 +57,6 @@ Features can be accessed using these URL's:
 | OpenStudioLandscapes-Ayon    | http://localhost:5005 |
 | OpenStudioLandscapes-Dagster | http://localhost:3003 |
 | OpenStudioLandscapes-Kitsu   | http://localhost:4545 |
-
 
 ## Requirements
 
